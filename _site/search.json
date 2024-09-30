@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "Test_Outside_File.html",
+    "href": "Test_Outside_File.html",
+    "title": "Test_Outside_File",
+    "section": "",
+    "text": "{r=\"asis\", echo=FALSE, message=FALSE} cat(readLines(\"https://raw.githubusercontent.com/Ecosystem-Assessment-Lab/lab-manual/refs/heads/main/01-intro-how-we-work.qmd\"), sep = '\\n')\nOld Lab Manual Page"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Home Landing Page"
+  },
+  {
+    "objectID": "Lab_Culture.html",
+    "href": "Lab_Culture.html",
+    "title": "Lab Culture",
+    "section": "",
+    "text": "Describe our lab culture here"
+  },
+  {
+    "objectID": "Test_Outside_File.html#how-we-meet",
+    "href": "Test_Outside_File.html#how-we-meet",
+    "title": "Test_Outside_File",
+    "section": "",
+    "text": "We have weekly virtual lab meetings via Google Meet. We also meet in project teams virtually and in-person. We set the agenda and have running notes via google docs for all meetings. In addition, we have informal meetings and occasionally have team happy hours at the RSMAS WetLab."
+  },
+  {
+    "objectID": "Test_Outside_File.html#how-we-give-feedback",
+    "href": "Test_Outside_File.html#how-we-give-feedback",
+    "title": "Test_Outside_File",
+    "section": "How we give feedback",
+    "text": "How we give feedback"
+  },
+  {
+    "objectID": "Test_Outside_File.html#shared-lab-resources",
+    "href": "Test_Outside_File.html#shared-lab-resources",
+    "title": "Test_Outside_File",
+    "section": "",
+    "text": "Old Lab Manual Page"
+  }
+]
