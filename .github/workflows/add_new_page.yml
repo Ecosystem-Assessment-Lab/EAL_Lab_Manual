@@ -1,0 +1,36 @@
+name: Create Quarto Page from Issue\
+
+on:
+  issues:
+    types: [opened, edited]
+    
+jobs:
+  create-page:
+    if: contains(github.event.issue.title, 'New_Page')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Get issue content
+        id: get_issue
+        run: |
+          ISSUE_TITLE="${{ github.event.issue.title }}"
+          PAGE_CONTENTS=$(echo "${ISSUE_BODY}" | jq -r '.page_contents')
+          CATEGORY=$(echo "${ISSUE_BODY}" | jq -r '.category')
+          echo "ISSUE_TITLE=${ISSUE_TITLE}" >> $GITHUB_ENV
+          echo "PAGE_CONTENTS=${PAGE_CONTENTS}" >> $GITHUB_ENV
+          echo "CATEGORY=${CATEGORY}" >> $GITHUB_ENV
+          
+ # break
+        
+      - name: Create new .qmd file
+        run: |
+          FILENAME=$(echo "${ISSUE_TITLE}" | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
+          echo -e "---\ntitle: ${ISSUE_TITLE}\n---\n\n${PAGE_CONTENTS}" > content/${FILENAME}
+
