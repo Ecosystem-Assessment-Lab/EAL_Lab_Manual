@@ -1,4 +1,4 @@
-name: Create Quarto Page from Issue\
+name: Create Quarto Page from Issue
 
 on:
   issues:
@@ -13,28 +13,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Get issue content
-        id: get_issue
+        id: get_issuename
         run: |
           ISSUE_TITLE="${{ github.event.issue.title }}"
-          ISSUE_BODY="${{ github.event.issue.body }}"
-          
+
           # Extract filename from the issue title after "New_Page: "
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
           
-          # Extract the page content from the body (assuming it's in a field called page_contents)
-          PAGE_CONTENTS=$(echo "${ISSUE_BODY}" | jq -r '.page_contents')
-          
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
-          echo "PAGE_CONTENTS=${PAGE_CONTENTS}" >> $GITHUB_ENV
-
-###
-
-      - name: Create QMD File
-        run: |
-          echo "---" > new_qmd_file.qmd
-          echo "title: \"My QMD Title\"" >> new_qmd_file.qmd
-          echo "author: \"Your Name\"" >> new_qmd_file.qmd
-          echo "date: \"2023-11-20\"" >> new_qmd_file.qmd
-          echo "---" >> new_qmd_file.qmd
-          echo "PAGE_CONTENTS=${PAGE_CONTENTS}" >> new_qmd_file.qmd
 
