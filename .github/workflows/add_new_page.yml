@@ -26,9 +26,8 @@ jobs:
         run: |
           ISSUE_BODY="${{ github.event.issue.body }}"
           
-          NEW_PAGE=$(echo "$issue_body" | sed -n 's/### Contents of New Page\n\(.*\)/\1/p')
-
-          echo "NEW_PAGE=${NEW_PAGE}" >> $GITHUB_ENV
+          content=$(echo "ISSUE_BODY" | sed -n 's/### Contents of New Page\n\(.*\)/\1/p')
+          echo "CONTENT=$content" >> $GITHUB_ENV
 
       - name: Create QMD File
         run: |
