@@ -36,7 +36,7 @@ jobs:
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
-          echo "${{ env.NEW_PAGE }}" >> "${{ env.FILENAME }}"
+          echo "${{ env.CONTENT }}" >> "${{ env.FILENAME }}"
 
 
       - name: Add and Commit Changes
