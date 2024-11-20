@@ -21,12 +21,6 @@ jobs:
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
           
-      - name: Get issue content
-        id: get_issuecontent
-        run: |
-          ISSUE_BODY="${{ github.event.issue.body }}"
-          
-          echo "ISSUE_BODY=$ISSUE_BODY" >> $GITHUB_ENV
 
       - name: Create QMD File
         run: |
@@ -35,7 +29,7 @@ jobs:
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
-          echo "${{ env.ISSUE_BODY }}" >> "${{ env.FILENAME }}"
+          echo "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
 
 
       - name: Add and Commit Changes
