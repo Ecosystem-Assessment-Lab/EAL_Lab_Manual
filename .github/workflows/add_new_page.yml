@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get issue content
+      - name: Get issue Name
         id: get_issuename
         run: |
           ISSUE_TITLE="${{ github.event.issue.title }}"
@@ -21,4 +21,14 @@ jobs:
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
           
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
+
+      - name: Get issue content
+        id: get_issuecontent
+        run: |
+          ISSUE_BODY="${{ github.event.issue.body }}"
+
+          # Extract filename from the issue title after "Page Content Header"
+          page_contents=$(echo "$issue_body" | grep -Po '(?<=### Contents of New Page ).*')
+          
+          echo "page_contents=${page_contents}" >> $GITHUB_ENV
 
