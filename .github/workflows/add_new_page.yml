@@ -23,11 +23,11 @@ jobs:
 
       - name: Create QMD File
         run: |
-          echo "---" > "${{ env.FILENAME }}"
+          echo "---" >> "${{ env.FILENAME }}"
           echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
-          echo "---" > "${{ env.FILENAME }}"
+          echo "---" >> "${{ env.FILENAME }}"
 
 
       - name: Add and Commit Changes
