@@ -19,16 +19,12 @@ jobs:
 
           # Extract filename from the issue title after "New_Page: "
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
-          
+          FILENAME="${FILENAME}.qmd"
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
 
-      - name: Get issue content
-        id: get_issuecontent
+      - name: Create QMD File
         run: |
-          ISSUE_BODY="${{ github.event.issue.body }}"
-
-          # Extract filename from the issue title after "Page Content Header"
-          page_contents=$(echo "$issue_body" | grep -Po '(?<=### Contents of New Page ).*')
-          
-          echo "page_contents=${page_contents}" >> $GITHUB_ENV
-
+          echo "---" > "${{ env.FILENAME }}"
+          echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
+          echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
+          echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
