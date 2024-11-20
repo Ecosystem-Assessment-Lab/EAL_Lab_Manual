@@ -19,7 +19,6 @@ jobs:
 
           # Extract filename from the issue title after "New_Page: "
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
-          FILENAME="${FILENAME}.qmd"
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
 
       - name: Create QMD File
