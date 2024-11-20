@@ -24,10 +24,11 @@ jobs:
       - name: Get issue content
         id: get_issuecontent
         run: |
-          ISSUE_BODY="${{ github.event.issue.id == 'page_contents' }}"
+          ISSUE_BODY="${{ github.event.issue.body }}"
           
-          echo "ISSUE_BODY=${ISSUE_BODY}" >> $GITHUB_ENV
+          NEW_PAGE=$(echo "$issue_body" | sed -n 's/### Contents of New Page\n\(.*\)/\1/p')
 
+          echo "NEW_PAGE=${NEW_PAGE}" >> $GITHUB_ENV
 
       - name: Create QMD File
         run: |
@@ -36,7 +37,7 @@ jobs:
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
-          echo "${{ env.ISSUE_BODY }}" >> "${{ env.FILENAME }}"
+          echo "${{ env.NEW_PAGE }}" >> "${{ env.FILENAME }}"
 
 
       - name: Add and Commit Changes
