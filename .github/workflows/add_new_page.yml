@@ -18,7 +18,7 @@ jobs:
           ISSUE_TITLE="${{ github.event.issue.title }}"
 
           # Extract filename from the issue title after "New_Page: "
-          FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
+          FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
 
       - name: Create QMD File
@@ -27,6 +27,8 @@ jobs:
           echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
+          echo "---" > "${{ env.FILENAME }}"
+
 
       - name: Add and Commit Changes
         run: |
