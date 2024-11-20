@@ -33,10 +33,5 @@ jobs:
         run: |
           git add "${{ env.FILENAME }}"
           git commit -m "Add new QMD file: ${{ env.FILENAME }}"
-
-      - name: Push Changes
-        uses: actions/checkout@v4
-        with:
-          push: false
-        run: |
           git push origin HEAD
+
