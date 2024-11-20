@@ -28,3 +28,15 @@ jobs:
           echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
+
+      - name: Add and Commit Changes
+        run: |
+          git add "${{ env.FILENAME }}"
+          git commit -m "Add new QMD file: ${{ env.FILENAME }}"
+
+      - name: Push Changes
+        uses: actions/checkout@v4
+        with:
+          push: false
+        run: |
+          git push origin HEAD
