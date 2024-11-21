@@ -32,12 +32,13 @@ jobs:
           echo "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
           
       - name: Read Quarto YAML File
+        id: read-yaml
+        with:
+          file: _quarto.yml
+      
+      - name: Print YML to QMD
         run: |
-          QUARTO_YML= "./_quarto.yml"
-          echo "QUARTO_YML=${QUARTO_YML}" >> $GITHUB_ENV
-          echo "${{ env.QUARTO_YML }}" >> "${{ env.FILENAME }}"
-
-
+          echo "${{ steps.read-yaml.outputs }}" >> "${{ env.FILENAME }}"
         
 
       - name: Add and Commit Changes
