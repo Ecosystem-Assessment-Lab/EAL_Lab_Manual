@@ -42,6 +42,7 @@ jobs:
           git config --global user.email "you@example.com"
           git config --global user.name "Your Name"
           git add "${{ env.FILENAME }}"
+          git add _quarto.yml
           git commit -m "Add new QMD file: ${{ env.FILENAME }}"
           git push origin HEAD
 
