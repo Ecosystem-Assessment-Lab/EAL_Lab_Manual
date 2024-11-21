@@ -1,0 +1,21 @@
+name: TEST Add Page to Lab Manual
+description: Use this form to easily add a page to the Ecosystem Assessment Laboratory's Lab Manual.
+title: "New_Page: "
+labels: ["new_page"]
+assignees: []
+body:
+    - type: dropdown
+      id: category
+      attributes:
+         label: Which subcategory does this new page belong to?
+         options: 
+            - Lab Practices
+            - Projects
+         default: 0
+         
+    - type: textarea
+      id: page_contents
+      attributes: 
+         label: Contents of New Page
+         description: Please use the text editor to add the contents of the new page that you would like added to the lab manual.
+         
