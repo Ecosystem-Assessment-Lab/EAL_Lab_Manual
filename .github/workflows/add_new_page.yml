@@ -20,11 +20,16 @@ jobs:
           # Extract filename from the issue title after "New_Page: "
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
+          
+      - name: Find Project Name
+        id: get_proj
+        run: |
+          PROJECT= sed '3q;d' <<< "${{ github.event.issue.body }}"
+          echo "PROJECT=${PROJECT}" >> $GITHUB_ENV
   
       - name: Edit Quarto File
         run: |
-          PROJECT= sed '3q;d' <<< "${{ github.event.issue.body }}"
-          sed -i '/- text: ${PROJECT}/a\            href: ${{ env.FILENAME }}' _quarto.yml
+          sed -i '/- text: "${{ env.PROJECT }}"/a\            href: ${{ env.FILENAME }}' _quarto.yml
 
 
       - name: Create QMD File
