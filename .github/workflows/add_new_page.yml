@@ -30,17 +30,9 @@ jobs:
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
           echo "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
-          
-      - name: Read Quarto YAML File
-        id: read-yaml
-        with:
-          file: _quarto.yml
-      
-      - name: Print YML to QMD
-        run: |
-          echo "${{ steps.read-yaml.outputs }}" >> "${{ env.FILENAME }}"
-        
+          cat _quarto.yml >> "${{ env.FILENAME }}"
 
+          
       - name: Add and Commit Changes
         run: |
           git config --global user.email "you@example.com"
