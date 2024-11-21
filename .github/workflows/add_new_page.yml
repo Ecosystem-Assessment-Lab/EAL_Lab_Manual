@@ -30,6 +30,11 @@ jobs:
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
           sed -n '7,$p' <<< "${{ github.event.issue.body }}" > "${{ env.FILENAME }}"
+          
+      - name: Edit Quarto File
+        run: |
+          PROJECT= sed '3q;d' <<< "${{ github.event.issue.body }}"
+          sed -i '/- text: ${PROJECT}/a\            href: ${{ env.FILENAME }}' _quarto.yml
 
           
       - name: Add and Commit Changes
