@@ -30,6 +30,16 @@ jobs:
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
           echo "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
+          
+      - name: Real Quarto YAML File
+        uses: pietrobolcato/action-read-yaml@1.0.0
+        id: read_yaml
+        with:
+          config: ${{ github.workspace }}/_quarto.yaml
+          
+      - name: Print YAML Outputs
+        run: |
+          echo ${{ steps.read_yaml.outputs }}
 
 
       - name: Add and Commit Changes
