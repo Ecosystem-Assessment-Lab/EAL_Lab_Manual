@@ -14,3 +14,8 @@ Maybe I was
 - Referencing
 - the body text
 - wring
+
+Does it update the page if 
+
+- There are edits
+- Here
