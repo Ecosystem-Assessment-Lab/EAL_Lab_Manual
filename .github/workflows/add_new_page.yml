@@ -20,7 +20,12 @@ jobs:
           # Extract filename from the issue title after "New_Page: "
           FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
-          
+  
+      - name: Edit Quarto File
+        run: |
+          PROJECT= sed '3q;d' <<< "${{ github.event.issue.body }}"
+          sed -i '/- text: ${PROJECT}/a\            href: ${{ env.FILENAME }}' _quarto.yml
+
 
       - name: Create QMD File
         run: |
@@ -29,12 +34,9 @@ jobs:
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
-          sed -n '7,$p' <<< "${{ github.event.issue.body }}" > "${{ env.FILENAME }}"
+          cat _quarto.yml >> "${{ env.FILENAME }}"
+          sed -n '7,$p' <<< "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
           
-      - name: Edit Quarto File
-        run: |
-          PROJECT= sed '3q;d' <<< "${{ github.event.issue.body }}"
-          sed -i '/- text: ${PROJECT}/a\            href: ${{ env.FILENAME }}' _quarto.yml
 
           
       - name: Add and Commit Changes
