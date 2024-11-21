@@ -1,6 +1,0 @@
----
-title: "Lab Culture"
-format: html
----
-
-### Describe our lab culture here
