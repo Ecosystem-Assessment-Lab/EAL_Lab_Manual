@@ -15,45 +15,9 @@ Maybe I was
 - the body text
 - wring
 
-Does it update the page if 
-
-- There are edits
-- Here
----
-title: "My QMD Title"
-author: "Your Name"
-date: "2023-11-20"
----
-### Which subcategory does this new page belong to?
-
-Lab Practices
-
-### Contents of New Page
-
-Maybe I was
-
-- Referencing
-- the body text
-- wring
-
-Testing YAML Edit Stuff
----
-title: "My QMD Title"
-author: "Your Name"
-date: "2023-11-20"
----
-### Which subcategory does this new page belong to?
-
-Lab Practices
-
-### Contents of New Page
-
-Maybe I was
-
-- Referencing
-- the body text
-- wring
-
 Testing YAML Edit Stuff
 
 - again
+
+Does this now write over the previous file?
+Object
