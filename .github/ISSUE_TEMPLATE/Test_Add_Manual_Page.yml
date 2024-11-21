@@ -5,12 +5,13 @@ labels: ["new_page"]
 assignees: []
 body:
     - type: dropdown
-      id: category
+      id: project
       attributes:
-         label: Which subcategory does this new page belong to?
+         label: Which project does this new page belong to?
          options: 
-            - Lab Practices
-            - Projects
+            - Florida Bay Juvenile Sportfish Sampling
+            - South Florida Ecosystem Restoration Cruises
+            - Biscayne Bay Water Quality Sampling
          default: 0
          
     - type: textarea
