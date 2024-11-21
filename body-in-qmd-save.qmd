@@ -37,3 +37,23 @@ Maybe I was
 - wring
 
 Testing YAML Edit Stuff
+---
+title: "My QMD Title"
+author: "Your Name"
+date: "2023-11-20"
+---
+### Which subcategory does this new page belong to?
+
+Lab Practices
+
+### Contents of New Page
+
+Maybe I was
+
+- Referencing
+- the body text
+- wring
+
+Testing YAML Edit Stuff
+
+- again
