@@ -24,7 +24,7 @@ jobs:
 
       - name: Create QMD File
         run: |
-          echo "---" >> "${{ env.FILENAME }}"
+          echo "---" > "${{ env.FILENAME }}"
           echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
           echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
@@ -39,7 +39,7 @@ jobs:
           
       - name: Print YAML Outputs
         run: |
-          echo ${{ steps.read_yaml.outputs }}
+          echo ${{ steps.read_yaml.outputs }} >> "${{ env.FILENAME }}"
 
 
       - name: Add and Commit Changes
