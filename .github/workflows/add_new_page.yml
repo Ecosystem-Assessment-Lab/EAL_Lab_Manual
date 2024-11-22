@@ -57,4 +57,9 @@ jobs:
           git add .
           git commit -m "Add new QMD file: ${{ env.FILENAME }}"
           git push origin HEAD
+          
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: Quarto-Publish
 
