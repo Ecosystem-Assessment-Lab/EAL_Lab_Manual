@@ -1,3 +1,8 @@
+---
+title: "My QMD Title"
+author: "Your Name"
+date: "2023-11-20"
+---
 project: 
   type: website
   
@@ -39,3 +44,11 @@ format:
     toc-location: left
 
 
+### This will be a new page on the website
+
+Where we can add lots of documentation and auto render the document
+
+**Maybe people will**
+
+- Use it more
+- Have better documentation
