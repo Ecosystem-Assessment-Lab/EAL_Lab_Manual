@@ -1,3 +1,8 @@
+---
+title: "My QMD Title"
+author: "Your Name"
+date: "2023-11-20"
+---
 project: 
   type: website
   
@@ -35,3 +40,7 @@ format:
       dark: darkly
     toc: true
     toc-location: left
+Working so far
+
+- Now will
+- it trigger
