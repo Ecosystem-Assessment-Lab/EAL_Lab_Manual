@@ -24,7 +24,8 @@ jobs:
       - name: Find Project Name
         id: get_proj
         run: |
-          PROJECT= $(echo "${{ github.event.issue.body }}" | sed '3q;d')
+          ISSUE_BODY="${{ github.event.issue.body }}"
+          PROJECT= $(echo "${ISSUE_BODY}" | sed '3q;d')
           echo "PROJECT=${PROJECT}" >> $GITHUB_ENV
   
       - name: Edit Quarto File
