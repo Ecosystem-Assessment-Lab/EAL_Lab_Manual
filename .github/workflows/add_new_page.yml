@@ -28,14 +28,14 @@ jobs:
           issue_body="${{ github.event.issue.body }}"
 
           # Extract the desired line (adjust the line number as needed)
-          extracted_line=$(echo "$issue_body" | sed -n '3p')
+          get_proj=$(echo "$issue_body" | sed -n '3p')
 
           # Set the extracted line as an environment variable
-          echo "EXTRACTED_LINE=$extracted_line" >> $GITHUB_ENV
+          echo "PROJECT=$get_proj" >> $GITHUB_ENV
   
       - name: Edit Quarto File
         run: |
-          sed -i '/- text: "${{ env.EXTRACTED_LINE }}"/a\            href: ${{ env.FILENAME }}' _quarto.yml
+          sed -i '/- text: "${{ env.PROJECT }}"/a\            href: ${{ env.FILENAME }}' _quarto.yml
 
 
       - name: Create QMD File
