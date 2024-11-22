@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/index.html</loc>
-    <lastmod>2024-11-22T14:47:51.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/Lab_Culture.html</loc>
-    <lastmod>2024-11-22T14:47:51.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/new-quarto-page.html</loc>
-    <lastmod>2024-11-22T14:47:51.872Z</lastmod>
+    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/after-syntax-change.html</loc>
+    <lastmod>2024-11-22T15:44:13.063Z</lastmod>
   </url>
   <url>
     <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/Test_Outside_File.html</loc>
-    <lastmod>2024-11-22T14:47:51.872Z</lastmod>
+    <lastmod>2024-11-22T15:44:13.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/new-quarto-page.html</loc>
+    <lastmod>2024-11-22T15:44:13.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/Lab_Culture.html</loc>
+    <lastmod>2024-11-22T15:44:13.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ecosystem-Assessment-Lab.github.io/EAL_Lab_Manual/index.html</loc>
+    <lastmod>2024-11-22T15:44:13.063Z</lastmod>
   </url>
 </urlset>

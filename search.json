@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Home Landing Page"
-  },
-  {
-    "objectID": "Lab_Culture.html",
-    "href": "Lab_Culture.html",
-    "title": "Lab Culture",
-    "section": "",
-    "text": "Describe our lab culture here"
-  },
-  {
-    "objectID": "new-quarto-page.html",
-    "href": "new-quarto-page.html",
+    "objectID": "after-syntax-change.html",
+    "href": "after-syntax-change.html",
     "title": "My QMD Title",
     "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: Home href: index.qmd icon: house-fill\n  - text: Lab Practices\n    href: Lab_Culture.qmd\n    icon: people-fill\n    \n  - text: Projects\n    icon: list-ol\n    menu:\n      - text: Florida Bay Juvenile Sportfish Sampling\n        href: no-quotes.qmd\n        href: Test_Outside_File.qmd\n      - text: South Florida Ecosystem Restoration Cruises\n        href: new-quarto-page.qmd\n        href: body-in-qmd-save.qmd\n      - text: Biscayne Bay Water Quality Sampling\n    \n    \nrepo-actions: - edit - source repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left\n\nThis will be a new page on the website\nWhere we can add lots of documentation and auto render the document\nMaybe people will\n\nUse it more\nHave better documentation"
+    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: Home href: index.qmd icon: house-fill\n  - text: Lab Practices\n    href: Lab_Culture.qmd\n    icon: people-fill\n    \n  - text: Projects\n    icon: list-ol\n    menu:\n      - text: Florida Bay Juvenile Sportfish Sampling\n        href: after-syntax-change.qmd\n        href: Test_Outside_File.qmd\n      - text: South Florida Ecosystem Restoration Cruises\n      - text: Biscayne Bay Water Quality Sampling\n    \n    \nrepo-actions: - edit - source repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Working so far\n\nNow will\nit trigger"
   },
   {
     "objectID": "Test_Outside_File.html",
@@ -40,5 +26,26 @@
     "title": "Test_Outside_File",
     "section": "",
     "text": "Old Lab Manual Page"
+  },
+  {
+    "objectID": "new-quarto-page.html",
+    "href": "new-quarto-page.html",
+    "title": "My QMD Title",
+    "section": "",
+    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: Home href: index.qmd icon: house-fill\n  - text: Lab Practices\n    href: Lab_Culture.qmd\n    icon: people-fill\n    \n  - text: Projects\n    icon: list-ol\n    menu:\n      - text: Florida Bay Juvenile Sportfish Sampling\n        href: no-quotes.qmd\n        href: Test_Outside_File.qmd\n      - text: South Florida Ecosystem Restoration Cruises\n        href: new-quarto-page.qmd\n        href: body-in-qmd-save.qmd\n      - text: Biscayne Bay Water Quality Sampling\n    \n    \nrepo-actions: - edit - source repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left\n\nThis will be a new page on the website\nWhere we can add lots of documentation and auto render the document\nMaybe people will\n\nUse it more\nHave better documentation"
+  },
+  {
+    "objectID": "Lab_Culture.html",
+    "href": "Lab_Culture.html",
+    "title": "Lab Culture",
+    "section": "",
+    "text": "Describe our lab culture here"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Home Landing Page"
   }
 ]
