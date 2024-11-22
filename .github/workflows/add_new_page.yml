@@ -22,7 +22,7 @@ jobs:
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
           
       - name: Find Project Name
-        id: get_proj
+        id: get_project
         run: |
           # Get the issue body
           issue_body="${{ github.event.issue.body }}"
