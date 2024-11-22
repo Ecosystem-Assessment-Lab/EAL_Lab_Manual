@@ -112,10 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./Test_Outside_File.html">
  <span class="dropdown-text">Florida Bay Juvenile Sportfish Sampling</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./body-in-qmd-save.html">
- <span class="dropdown-text">South Florida Ecosystem Restoration Cruises FAKE</span></a>
-  </li>  
+        <li class="dropdown-header">South Florida Ecosystem Restoration Cruises</li>
         <li class="dropdown-header">Biscayne Bay Water Quality Sampling</li>
     </ul>
   </li>
@@ -135,10 +132,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#which-subcategory-does-this-new-page-belong-to" id="toc-which-subcategory-does-this-new-page-belong-to" class="nav-link active" data-scroll-target="#which-subcategory-does-this-new-page-belong-to">Which subcategory does this new page belong to?</a></li>
-  <li><a href="#contents-of-new-page" id="toc-contents-of-new-page" class="nav-link" data-scroll-target="#contents-of-new-page">Contents of New Page</a></li>
+  <li><a href="#this-will-be-a-new-page-on-the-website" id="toc-this-will-be-a-new-page-on-the-website" class="nav-link active" data-scroll-target="#this-will-be-a-new-page-on-the-website">This will be a new page on the website</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/edit/main/body-in-qmd-save.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/blob/main/body-in-qmd-save.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/edit/main/new-quarto-page.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/blob/main/new-quarto-page.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -178,23 +174,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="which-subcategory-does-this-new-page-belong-to" class="level3">
-<h3 class="anchored" data-anchor-id="which-subcategory-does-this-new-page-belong-to">Which subcategory does this new page belong to?</h3>
-<p>Lab Practices</p>
-</section>
-<section id="contents-of-new-page" class="level3">
-<h3 class="anchored" data-anchor-id="contents-of-new-page">Contents of New Page</h3>
-<p>Maybe I was</p>
+<p>project: type: website</p>
+<p>website: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: Home href: index.qmd icon: house-fill</p>
+<pre><code>  - text: Lab Practices
+    href: Lab_Culture.qmd
+    icon: people-fill
+    
+  - text: Projects
+    icon: list-ol
+    menu:
+      - text: Florida Bay Juvenile Sportfish Sampling
+        href: no-quotes.qmd
+        href: Test_Outside_File.qmd
+      - text: South Florida Ecosystem Restoration Cruises
+        href: new-quarto-page.qmd
+        href: body-in-qmd-save.qmd
+      - text: Biscayne Bay Water Quality Sampling
+    
+    </code></pre>
+<p>repo-actions: - edit - source repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual</p>
+<p>format: html: theme: light: flatly dark: darkly toc: true toc-location: left</p>
+<section id="this-will-be-a-new-page-on-the-website" class="level3">
+<h3 class="anchored" data-anchor-id="this-will-be-a-new-page-on-the-website">This will be a new page on the website</h3>
+<p>Where we can add lots of documentation and auto render the document</p>
+<p><strong>Maybe people will</strong></p>
 <ul>
-<li>Referencing</li>
-<li>the body text</li>
-<li>wring</li>
+<li>Use it more</li>
+<li>Have better documentation</li>
 </ul>
-<p>Testing YAML Edit Stuff</p>
-<ul>
-<li>again</li>
-</ul>
-<p>Does this now write over the previous file? Object</p>
 
 
 </section>
@@ -769,4 +776,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/edit/main/body-in-qmd-save.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/blob/main/body-in-qmd-save.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/edit/main/new-quarto-page.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual/blob/main/new-quarto-page.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
