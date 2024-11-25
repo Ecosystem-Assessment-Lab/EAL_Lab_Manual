@@ -10,7 +10,7 @@ body:
       attributes:
         label: Document Title
         
-    - tyoe: input
+    - type: input
       id: author
       attribute:
         label: Your Name
