@@ -54,7 +54,7 @@ jobs:
           echo "---" > "${{ env.FILENAME }}"
           echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
           echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
-          echo "date: \"2023-11-20\"" >> "${{ env.FILENAME }}"
+          echo "date: \"$(date '+%Y-%m-%d')\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
           sed -n '7,$p' <<< "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
           
