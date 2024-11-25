@@ -1,7 +1,11 @@
 on:
-  workflow_dispatch:
   push:
     branches: main
+  workflow_run:
+    workflows:
+      - Create Quarto Page from Issue
+    types:
+      - completed
 
 name: Quarto Publish
 
