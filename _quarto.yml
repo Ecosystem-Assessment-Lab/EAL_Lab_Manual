@@ -1,32 +1,41 @@
 project: 
   type: website
-  
+
+
 website: 
   title: "Ecosystem Assessment Lab Manual"
   navbar: 
     left: 
-      - text: Home
+      - text: "Home"
         href: index.qmd
-        icon: house-fill
-        
-      - text: Lab Practices
-        href: Lab_Culture.qmd
-        icon: people-fill
-        
-      - text: Projects
-        icon: list-ol
+      - text: "Lab Culture"
+        href: files_for_website/Lab_Culture.qmd
+      - text: "Projects"
         menu:
-          - text: Florida Bay Juvenile Sportfish Sampling
-          - after-syntax-change.qmd
-          - Test_Outside_File.qmd
-          - text: South Florida Ecosystem Restoration Cruises
-          - text: Biscayne Bay Water Quality Sampling
-        
-        
-  repo-actions:
-    - edit
-    - source
-  repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual
+          - files_for_website/Biscayne_Bay_Main.qmd
+          - files_for_website/FL_Bay_Main.qmd
+          - files_for_website/SFER_Main.qmd
+
+
+  sidebar: 
+    - title: "Projects"
+      contents: 
+        - section: files_for_website/Biscayne_Bay_Main.qmd
+          contents:
+            - files_for_website/HOLD_PG_BB.qmd
+#End Biscayne Bay 
+
+        - section: files_for_website/FL_Bay_Main.qmd
+          contents: 
+            - files_for_website/HOLD_PG_SF.qmd
+#End FL Bay
+
+        - section: files_for_website/SFER_Main.qmd
+          contents:
+            - files_for_website/HOLD_PG_SFER.qmd
+#End SFER
+
+
 
 format: 
   html: 

@@ -18,7 +18,8 @@ jobs:
           ISSUE_TITLE="${{ github.event.issue.title }}"
 
           # Extract filename from the issue title after "New_Page: "
-          FILENAME=$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd
+          FILENAME=$(echo "files_for_website/$(echo "${ISSUE_TITLE}" | sed -n 's/^New_Page: //p' | tr ' ' '-' | tr '[:upper:]' '[:lower:]').qmd")
+
           echo "FILENAME=${FILENAME}" >> $GITHUB_ENV
           
       - name: Find Project Name
@@ -29,13 +30,23 @@ jobs:
 
           # Extract the desired line (adjust the line number as needed)
           get_proj=$(echo "$issue_body" | sed -n '3p')
-
+          
           # Set the extracted line as an environment variable
           echo "PROJECT=$get_proj" >> $GITHUB_ENV
   
       - name: Edit Quarto File
         run: |
-          sed -i '/- text: ${{ env.PROJECT }}/a\            href: ${{ env.FILENAME }}' _quarto.yml
+          if [ "${{ env.PROJECT }}" = "Florida Bay Juvenile Sportfish Sampling" ]; then
+              awk -v filename="${{ env.FILENAME }}" 'index($0, "#End Biscayne Bay") {print "            - " filename}1' _quarto.yml > temp && mv temp _quarto.yml
+          elif [ "${{ env.PROJECT }}" = "South Florida Ecosystem Restoration Cruises"]; then
+              awk -v filename="${{ env.FILENAME }}" 'index($0, "#End SFER") {print "            - " filename}1' _quarto.yml > temp && mv temp _quarto.yml
+          elif [ "${{ env.PROJECT }}" = "Biscayne Bay Water Quality Sampling" ]; then
+              awk -v filename="${{ env.FILENAME }}" 'index($0, "#End Biscayne Bay") {print "            - " filename}1' _quarto.yml > temp && mv temp _quarto.yml
+          else
+              # If no project matches, output a message
+              echo "Project not recognized."
+          fi
+        
 
 
       - name: Create QMD File
@@ -58,8 +69,3 @@ jobs:
           git commit -m "Add new QMD file: ${{ env.FILENAME }}"
           git push origin HEAD
           
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          event-type: Quarto-Publish
-
