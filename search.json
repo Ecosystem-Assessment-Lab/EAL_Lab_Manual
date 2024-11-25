@@ -27,94 +27,26 @@
     ]
   },
   {
-    "objectID": "files_for_website/HOLD_PG_SF2.html",
-    "href": "files_for_website/HOLD_PG_SF2.html",
-    "title": "HOLD PG SF2",
+    "objectID": "files_for_website/HOLD_PG_SF.html",
+    "href": "files_for_website/HOLD_PG_SF.html",
+    "title": "HOLD PG SF",
     "section": "",
-    "text": "Documentation page for sportfish."
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
-    "href": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
-    "title": "HOLD PG SF2",
-    "section": "",
-    "text": "Documentation page for sportfish."
-  },
-  {
-    "objectID": "files_for_website/Biscayne_Bay_Main.html",
-    "href": "files_for_website/Biscayne_Bay_Main.html",
-    "title": "Biscayne Bay Sampling",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
+    "text": "Documentation page for sportfish.",
     "crumbs": [
-      "Biscayne Bay Sampling"
+      "FL Bay Juvenile Sportfish Sampling",
+      "HOLD PG SF"
     ]
   },
   {
-    "objectID": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
-    "href": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
-    "title": "Biscayne Bay Sampling",
+    "objectID": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
+    "href": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
+    "title": "HOLD PG SF",
     "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
+    "text": "Documentation page for sportfish.",
     "crumbs": [
-      "Biscayne Bay Sampling"
+      "FL Bay Juvenile Sportfish Sampling",
+      "HOLD PG SF"
     ]
-  },
-  {
-    "objectID": "files_for_website/now-with-space.html",
-    "href": "files_for_website/now-with-space.html",
-    "title": "My QMD Title",
-    "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: “Home” href: index.qmd - text: “Lab Culture” href: files_for_website/Lab_Culture.qmd - text: “Projects” menu: - files_for_website/Biscayne_Bay_Main.qmd - files_for_website/FL_Bay_Main.qmd - files_for_website/SFER_Main.qmd\nsidebar: - title: “Projects” contents: - section: files_for_website/Biscayne_Bay_Main.qmd contents: - files_for_website/HOLD_PG_BB.qmd #End Biscayne Bay\n    - section: files_for_website/FL_Bay_Main.qmd\n      contents: \n        - files_for_website/HOLD_PG_SF.qmd\n#End FL Bay\n    - section: files_for_website/SFER_Main.qmd\n      contents:\n        - files_for_website/HOLD_PG_SFER.qmd\n        - files_for_website/now-with-space.qmd\n#End SFER\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Same thing as before\n\nmake file\nedit quarto"
-  },
-  {
-    "objectID": "files_for_website/FL_Bay_Main.html",
-    "href": "files_for_website/FL_Bay_Main.html",
-    "title": "FL Bay Juvenile Sportfish Sampling",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
-    "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling"
-    ]
-  },
-  {
-    "objectID": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
-    "href": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
-    "title": "FL Bay Juvenile Sportfish Sampling",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
-    "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling"
-    ]
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_BB.html",
-    "href": "files_for_website/HOLD_PG_BB.html",
-    "title": "HOLD PG BB",
-    "section": "",
-    "text": "Documentation page for Biscayne Bay.",
-    "crumbs": [
-      "Biscayne Bay Sampling",
-      "HOLD PG BB"
-    ]
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_BB.html#hold-page-for-biscayne-bay",
-    "href": "files_for_website/HOLD_PG_BB.html#hold-page-for-biscayne-bay",
-    "title": "HOLD PG BB",
-    "section": "",
-    "text": "Documentation page for Biscayne Bay.",
-    "crumbs": [
-      "Biscayne Bay Sampling",
-      "HOLD PG BB"
-    ]
-  },
-  {
-    "objectID": "files_for_website/Lab_Culture.html",
-    "href": "files_for_website/Lab_Culture.html",
-    "title": "Lab Culture",
-    "section": "",
-    "text": "Describe our lab culture here"
   },
   {
     "objectID": "files_for_website/HOLD_PG_SFER.html",
@@ -139,25 +71,115 @@
     ]
   },
   {
-    "objectID": "files_for_website/HOLD_PG_SF.html",
-    "href": "files_for_website/HOLD_PG_SF.html",
-    "title": "HOLD PG SF",
+    "objectID": "files_for_website/Lab_Culture.html",
+    "href": "files_for_website/Lab_Culture.html",
+    "title": "Lab Culture",
     "section": "",
-    "text": "Documentation page for sportfish.",
+    "text": "Describe our lab culture here"
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_BB.html",
+    "href": "files_for_website/HOLD_PG_BB.html",
+    "title": "HOLD PG BB",
+    "section": "",
+    "text": "Documentation page for Biscayne Bay.",
     "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling",
-      "HOLD PG SF"
+      "Biscayne Bay Sampling",
+      "HOLD PG BB"
     ]
   },
   {
-    "objectID": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
-    "href": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
-    "title": "HOLD PG SF",
+    "objectID": "files_for_website/HOLD_PG_BB.html#hold-page-for-biscayne-bay",
+    "href": "files_for_website/HOLD_PG_BB.html#hold-page-for-biscayne-bay",
+    "title": "HOLD PG BB",
     "section": "",
-    "text": "Documentation page for sportfish.",
+    "text": "Documentation page for Biscayne Bay.",
     "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling",
-      "HOLD PG SF"
+      "Biscayne Bay Sampling",
+      "HOLD PG BB"
+    ]
+  },
+  {
+    "objectID": "files_for_website/FL_Bay_Main.html",
+    "href": "files_for_website/FL_Bay_Main.html",
+    "title": "FL Bay Juvenile Sportfish Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
+    "href": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
+    "title": "FL Bay Juvenile Sportfish Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/now-with-space.html",
+    "href": "files_for_website/now-with-space.html",
+    "title": "My QMD Title",
+    "section": "",
+    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: “Home” href: index.qmd - text: “Lab Culture” href: files_for_website/Lab_Culture.qmd - text: “Projects” menu: - files_for_website/Biscayne_Bay_Main.qmd - files_for_website/FL_Bay_Main.qmd - files_for_website/SFER_Main.qmd\nsidebar: - title: “Projects” contents: - section: files_for_website/Biscayne_Bay_Main.qmd contents: - files_for_website/HOLD_PG_BB.qmd #End Biscayne Bay\n    - section: files_for_website/FL_Bay_Main.qmd\n      contents: \n        - files_for_website/HOLD_PG_SF.qmd\n#End FL Bay\n    - section: files_for_website/SFER_Main.qmd\n      contents:\n        - files_for_website/HOLD_PG_SFER.qmd\n        - files_for_website/now-with-space.qmd\n#End SFER\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Same thing as before\n\nmake file\nedit quarto"
+  },
+  {
+    "objectID": "files_for_website/Biscayne_Bay_Main.html",
+    "href": "files_for_website/Biscayne_Bay_Main.html",
+    "title": "Biscayne Bay Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "Biscayne Bay Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
+    "href": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
+    "title": "Biscayne Bay Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "Biscayne Bay Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF2.html",
+    "href": "files_for_website/HOLD_PG_SF2.html",
+    "title": "HOLD PG SF2",
+    "section": "",
+    "text": "Documentation page for sportfish."
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
+    "href": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
+    "title": "HOLD PG SF2",
+    "section": "",
+    "text": "Documentation page for sportfish."
+  },
+  {
+    "objectID": "files_for_website/full-run.html",
+    "href": "files_for_website/full-run.html",
+    "title": "My QMD Title",
+    "section": "",
+    "text": "Will this be the first run that:\n\nCreates a QMD file\nPuts it in the folder\nAdds the filename to the Quarto\nRuns the Quarto Publish command\nUpdates Website",
+    "crumbs": [
+      "SFER Cruises",
+      "My QMD Title"
+    ]
+  },
+  {
+    "objectID": "files_for_website/full-run.html#maybe",
+    "href": "files_for_website/full-run.html#maybe",
+    "title": "My QMD Title",
+    "section": "",
+    "text": "Will this be the first run that:\n\nCreates a QMD file\nPuts it in the folder\nAdds the filename to the Quarto\nRuns the Quarto Publish command\nUpdates Website",
+    "crumbs": [
+      "SFER Cruises",
+      "My QMD Title"
     ]
   },
   {
