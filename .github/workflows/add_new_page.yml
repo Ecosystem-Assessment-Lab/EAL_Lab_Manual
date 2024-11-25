@@ -79,6 +79,7 @@ jobs:
           echo "title: \"${{ env.TITLE }}\"" >> "${{ env.FILENAME }}"
           echo "author: \"${{ env.AUTHOR }}\"" >> "${{ env.FILENAME }}"
           echo "date: \"$(date '+%Y-%m-%d')\"" >> "${{ env.FILENAME }}"
+          echo "format: html" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
           sed -n '15,$p' <<< "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
           
