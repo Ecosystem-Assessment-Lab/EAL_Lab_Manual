@@ -1,3 +1,8 @@
+---
+title: "My QMD Title"
+author: "Your Name"
+date: "2023-11-20"
+---
 project: 
   type: website
 
@@ -45,3 +50,7 @@ format:
       dark: darkly
     toc: true
     toc-location: left
+Same thing as before
+
+- make file
+- edit quarto
