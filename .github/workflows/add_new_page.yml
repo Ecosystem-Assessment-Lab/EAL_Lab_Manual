@@ -29,10 +29,34 @@ jobs:
           issue_body="${{ github.event.issue.body }}"
 
           # Extract the desired line (adjust the line number as needed)
-          get_proj=$(echo "$issue_body" | sed -n '3p')
+          get_proj=$(echo "$issue_body" | sed -n '11p')
           
           # Set the extracted line as an environment variable
           echo "PROJECT=$get_proj" >> $GITHUB_ENV
+          
+      - name: Find Author Name
+        id: get_author
+        run: |
+          # Get the issue body
+          issue_body="${{ github.event.issue.body }}"
+
+          # Extract the desired line (adjust the line number as needed)
+          get_auth=$(echo "$issue_body" | sed -n '7p')
+          
+          # Set the extracted line as an environment variable
+          echo "AUTHOR=$get_auth" >> $GITHUB_ENV
+          
+      - name: Find Title
+        id: get_title
+        run: |
+          # Get the issue body
+          issue_body="${{ github.event.issue.body }}"
+
+          # Extract the desired line (adjust the line number as needed)
+          get_title=$(echo "$issue_body" | sed -n '3p')
+          
+          # Set the extracted line as an environment variable
+          echo "TITLE=$get_title" >> $GITHUB_ENV
   
       - name: Edit Quarto File
         run: |
@@ -52,11 +76,11 @@ jobs:
       - name: Create QMD File
         run: |
           echo "---" > "${{ env.FILENAME }}"
-          echo "title: \"My QMD Title\"" >> "${{ env.FILENAME }}"
-          echo "author: \"Your Name\"" >> "${{ env.FILENAME }}"
+          echo " \"${{ env.TITLE }}\"" >> "${{ env.FILENAME }}"
+          echo "author: \"${{ env.AUTHOR }}\"" >> "${{ env.FILENAME }}"
           echo "date: \"$(date '+%Y-%m-%d')\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
-          sed -n '7,$p' <<< "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
+          sed -n '15,$p' <<< "${{ github.event.issue.body }}" >> "${{ env.FILENAME }}"
           
 
           
