@@ -1,51 +1,156 @@
 [
   {
-    "objectID": "after-syntax-change.html",
-    "href": "after-syntax-change.html",
-    "title": "My QMD Title",
-    "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: Home href: index.qmd icon: house-fill\n  - text: Lab Practices\n    href: Lab_Culture.qmd\n    icon: people-fill\n    \n  - text: Projects\n    icon: list-ol\n    menu:\n      - text: Florida Bay Juvenile Sportfish Sampling\n        href: after-syntax-change.qmd\n        href: Test_Outside_File.qmd\n      - text: South Florida Ecosystem Restoration Cruises\n      - text: Biscayne Bay Water Quality Sampling\n    \n    \nrepo-actions: - edit - source repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Working so far\n\nNow will\nit trigger"
-  },
-  {
-    "objectID": "Test_Outside_File.html",
-    "href": "Test_Outside_File.html",
-    "title": "Test_Outside_File",
-    "section": "",
-    "text": "We are an applied ecosystem research laboratory within NOAA’s Atlantic Oceanographic and Meteorological Laboratory. We conduct ecosystem assessments and develop related scientific products to inform ecosystem based mangement of our coastal and marine ecosystems and resources.\n\n\nWe have weekly virtual lab meetings via Google Meet. We also meet in project teams virtually and in-person. We set the agenda and have running notes via google docs for all meetings. In addition, we have informal meetings and occasionally have team happy hours at the RSMAS WetLab.\n\n\n\n\n\n\nOld Lab Manual Page"
-  },
-  {
-    "objectID": "Test_Outside_File.html#how-we-meet",
-    "href": "Test_Outside_File.html#how-we-meet",
-    "title": "Test_Outside_File",
-    "section": "",
-    "text": "We have weekly virtual lab meetings via Google Meet. We also meet in project teams virtually and in-person. We set the agenda and have running notes via google docs for all meetings. In addition, we have informal meetings and occasionally have team happy hours at the RSMAS WetLab."
-  },
-  {
-    "objectID": "Test_Outside_File.html#shared-lab-resources",
-    "href": "Test_Outside_File.html#shared-lab-resources",
-    "title": "Test_Outside_File",
-    "section": "",
-    "text": "Old Lab Manual Page"
-  },
-  {
-    "objectID": "new-quarto-page.html",
-    "href": "new-quarto-page.html",
-    "title": "My QMD Title",
-    "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: Home href: index.qmd icon: house-fill\n  - text: Lab Practices\n    href: Lab_Culture.qmd\n    icon: people-fill\n    \n  - text: Projects\n    icon: list-ol\n    menu:\n      - text: Florida Bay Juvenile Sportfish Sampling\n        href: no-quotes.qmd\n        href: Test_Outside_File.qmd\n      - text: South Florida Ecosystem Restoration Cruises\n        href: new-quarto-page.qmd\n        href: body-in-qmd-save.qmd\n      - text: Biscayne Bay Water Quality Sampling\n    \n    \nrepo-actions: - edit - source repo-url: https://github.com/Ecosystem-Assessment-Lab/EAL_Lab_Manual\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left\n\nThis will be a new page on the website\nWhere we can add lots of documentation and auto render the document\nMaybe people will\n\nUse it more\nHave better documentation"
-  },
-  {
-    "objectID": "Lab_Culture.html",
-    "href": "Lab_Culture.html",
-    "title": "Lab Culture",
-    "section": "",
-    "text": "Describe our lab culture here"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
     "text": "Home Landing Page"
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF.html",
+    "href": "files_for_website/HOLD_PG_SF.html",
+    "title": "HOLD PG SF",
+    "section": "",
+    "text": "Documentation page for sportfish.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling",
+      "HOLD PG SF"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
+    "href": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
+    "title": "HOLD PG SF",
+    "section": "",
+    "text": "Documentation page for sportfish.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling",
+      "HOLD PG SF"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SFER.html",
+    "href": "files_for_website/HOLD_PG_SFER.html",
+    "title": "HOLD PG SFER",
+    "section": "",
+    "text": "Documentation page for SFER.",
+    "crumbs": [
+      "SFER Cruises",
+      "HOLD PG SFER"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
+    "href": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
+    "title": "HOLD PG SFER",
+    "section": "",
+    "text": "Documentation page for SFER.",
+    "crumbs": [
+      "SFER Cruises",
+      "HOLD PG SFER"
+    ]
+  },
+  {
+    "objectID": "files_for_website/Lab_Culture.html",
+    "href": "files_for_website/Lab_Culture.html",
+    "title": "Lab Culture",
+    "section": "",
+    "text": "Describe our lab culture here"
+  },
+  {
+    "objectID": "files_for_website/FL_Bay_Main.html",
+    "href": "files_for_website/FL_Bay_Main.html",
+    "title": "FL Bay Juvenile Sportfish Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
+    "href": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
+    "title": "FL Bay Juvenile Sportfish Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_BB.html",
+    "href": "files_for_website/HOLD_PG_BB.html",
+    "title": "HOLD PG BB",
+    "section": "",
+    "text": "Documentation page for Biscayne Bay.",
+    "crumbs": [
+      "Biscayne Bay Sampling",
+      "HOLD PG BB"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_BB.html#hold-page-for-biscayne-bay",
+    "href": "files_for_website/HOLD_PG_BB.html#hold-page-for-biscayne-bay",
+    "title": "HOLD PG BB",
+    "section": "",
+    "text": "Documentation page for Biscayne Bay.",
+    "crumbs": [
+      "Biscayne Bay Sampling",
+      "HOLD PG BB"
+    ]
+  },
+  {
+    "objectID": "files_for_website/Biscayne_Bay_Main.html",
+    "href": "files_for_website/Biscayne_Bay_Main.html",
+    "title": "Biscayne Bay Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "Biscayne Bay Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
+    "href": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
+    "title": "Biscayne Bay Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "Biscayne Bay Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF2.html",
+    "href": "files_for_website/HOLD_PG_SF2.html",
+    "title": "HOLD PG SF2",
+    "section": "",
+    "text": "Documentation page for sportfish."
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
+    "href": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
+    "title": "HOLD PG SF2",
+    "section": "",
+    "text": "Documentation page for sportfish."
+  },
+  {
+    "objectID": "files_for_website/SFER_Main.html",
+    "href": "files_for_website/SFER_Main.html",
+    "title": "SFER Cruises",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "SFER Cruises"
+    ]
+  },
+  {
+    "objectID": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
+    "href": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
+    "title": "SFER Cruises",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "SFER Cruises"
+    ]
   }
 ]
