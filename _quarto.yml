@@ -33,7 +33,7 @@ website:
         - section: files_for_website/SFER_Main.qmd
           contents:
             - files_for_website/HOLD_PG_SFER.qmd
-            - files_for_website/now-with-space.qmd
+            - files_for_website/full-run.qmd
 #End SFER
 
 
