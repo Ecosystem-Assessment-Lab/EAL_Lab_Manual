@@ -7,26 +7,6 @@
     "text": "Home Landing Page"
   },
   {
-    "objectID": "files_for_website/SFER_Main.html",
-    "href": "files_for_website/SFER_Main.html",
-    "title": "SFER Cruises",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
-    "crumbs": [
-      "SFER Cruises"
-    ]
-  },
-  {
-    "objectID": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
-    "href": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
-    "title": "SFER Cruises",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
-    "crumbs": [
-      "SFER Cruises"
-    ]
-  },
-  {
     "objectID": "files_for_website/HOLD_PG_SF.html",
     "href": "files_for_website/HOLD_PG_SF.html",
     "title": "HOLD PG SF",
@@ -49,33 +29,24 @@
     ]
   },
   {
-    "objectID": "files_for_website/HOLD_PG_SFER.html",
-    "href": "files_for_website/HOLD_PG_SFER.html",
-    "title": "HOLD PG SFER",
+    "objectID": "files_for_website/Biscayne_Bay_Main.html",
+    "href": "files_for_website/Biscayne_Bay_Main.html",
+    "title": "Biscayne Bay Sampling",
     "section": "",
-    "text": "Documentation page for SFER.",
+    "text": "Here we put an overview of the project as the project intro page.",
     "crumbs": [
-      "SFER Cruises",
-      "HOLD PG SFER"
+      "Biscayne Bay Sampling"
     ]
   },
   {
-    "objectID": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
-    "href": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
-    "title": "HOLD PG SFER",
+    "objectID": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
+    "href": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
+    "title": "Biscayne Bay Sampling",
     "section": "",
-    "text": "Documentation page for SFER.",
+    "text": "Here we put an overview of the project as the project intro page.",
     "crumbs": [
-      "SFER Cruises",
-      "HOLD PG SFER"
+      "Biscayne Bay Sampling"
     ]
-  },
-  {
-    "objectID": "files_for_website/Lab_Culture.html",
-    "href": "files_for_website/Lab_Culture.html",
-    "title": "Lab Culture",
-    "section": "",
-    "text": "Describe our lab culture here"
   },
   {
     "objectID": "files_for_website/HOLD_PG_BB.html",
@@ -120,73 +91,63 @@
     ]
   },
   {
-    "objectID": "files_for_website/now-with-space.html",
-    "href": "files_for_website/now-with-space.html",
-    "title": "My QMD Title",
+    "objectID": "files_for_website/after-clean.html",
+    "href": "files_for_website/after-clean.html",
+    "title": "This SHOULD Work",
     "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: “Home” href: index.qmd - text: “Lab Culture” href: files_for_website/Lab_Culture.qmd - text: “Projects” menu: - files_for_website/Biscayne_Bay_Main.qmd - files_for_website/FL_Bay_Main.qmd - files_for_website/SFER_Main.qmd\nsidebar: - title: “Projects” contents: - section: files_for_website/Biscayne_Bay_Main.qmd contents: - files_for_website/HOLD_PG_BB.qmd #End Biscayne Bay\n    - section: files_for_website/FL_Bay_Main.qmd\n      contents: \n        - files_for_website/HOLD_PG_SF.qmd\n#End FL Bay\n    - section: files_for_website/SFER_Main.qmd\n      contents:\n        - files_for_website/HOLD_PG_SFER.qmd\n        - files_for_website/now-with-space.qmd\n#End SFER\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Same thing as before\n\nmake file\nedit quarto"
+    "text": "I need to clean out the old files because they ran no matter what.",
+    "crumbs": [
+      "Biscayne Bay Sampling",
+      "This SHOULD Work"
+    ]
   },
   {
-    "objectID": "files_for_website/Biscayne_Bay_Main.html",
-    "href": "files_for_website/Biscayne_Bay_Main.html",
-    "title": "Biscayne Bay Sampling",
+    "objectID": "files_for_website/Lab_Culture.html",
+    "href": "files_for_website/Lab_Culture.html",
+    "title": "Lab Culture",
+    "section": "",
+    "text": "Describe our lab culture here"
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SFER.html",
+    "href": "files_for_website/HOLD_PG_SFER.html",
+    "title": "HOLD PG SFER",
+    "section": "",
+    "text": "Documentation page for SFER.",
+    "crumbs": [
+      "SFER Cruises",
+      "HOLD PG SFER"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
+    "href": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
+    "title": "HOLD PG SFER",
+    "section": "",
+    "text": "Documentation page for SFER.",
+    "crumbs": [
+      "SFER Cruises",
+      "HOLD PG SFER"
+    ]
+  },
+  {
+    "objectID": "files_for_website/SFER_Main.html",
+    "href": "files_for_website/SFER_Main.html",
+    "title": "SFER Cruises",
     "section": "",
     "text": "Here we put an overview of the project as the project intro page.",
     "crumbs": [
-      "Biscayne Bay Sampling"
+      "SFER Cruises"
     ]
   },
   {
-    "objectID": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
-    "href": "files_for_website/Biscayne_Bay_Main.html#biscayne-bay-water-quality-sampling",
-    "title": "Biscayne Bay Sampling",
+    "objectID": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
+    "href": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
+    "title": "SFER Cruises",
     "section": "",
     "text": "Here we put an overview of the project as the project intro page.",
     "crumbs": [
-      "Biscayne Bay Sampling"
+      "SFER Cruises"
     ]
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SF2.html",
-    "href": "files_for_website/HOLD_PG_SF2.html",
-    "title": "HOLD PG SF2",
-    "section": "",
-    "text": "Documentation page for sportfish."
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
-    "href": "files_for_website/HOLD_PG_SF2.html#hold-page-for-sportfish",
-    "title": "HOLD PG SF2",
-    "section": "",
-    "text": "Documentation page for sportfish."
-  },
-  {
-    "objectID": "files_for_website/full-run.html",
-    "href": "files_for_website/full-run.html",
-    "title": "My QMD Title",
-    "section": "",
-    "text": "Will this be the first run that:\n\nCreates a QMD file\nPuts it in the folder\nAdds the filename to the Quarto\nRuns the Quarto Publish command\nUpdates Website",
-    "crumbs": [
-      "SFER Cruises",
-      "My QMD Title"
-    ]
-  },
-  {
-    "objectID": "files_for_website/full-run.html#maybe",
-    "href": "files_for_website/full-run.html#maybe",
-    "title": "My QMD Title",
-    "section": "",
-    "text": "Will this be the first run that:\n\nCreates a QMD file\nPuts it in the folder\nAdds the filename to the Quarto\nRuns the Quarto Publish command\nUpdates Website",
-    "crumbs": [
-      "SFER Cruises",
-      "My QMD Title"
-    ]
-  },
-  {
-    "objectID": "files_for_website/new-page-to-quarto.html",
-    "href": "files_for_website/new-page-to-quarto.html",
-    "title": "My QMD Title",
-    "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: “Home” href: index.qmd - text: “Lab Culture” href: files_for_website/Lab_Culture.qmd - text: “Projects” menu: - files_for_website/Biscayne_Bay_Main.qmd - files_for_website/FL_Bay_Main.qmd - files_for_website/SFER_Main.qmd\nsidebar: - title: “Projects” contents: - section: files_for_website/Biscayne_Bay_Main.qmd contents: - files_for_website/HOLD_PG_BB.qmd #End Biscayne Bay\n    - section: files_for_website/FL_Bay_Main.qmd\n      contents: \n        - files_for_website/HOLD_PG_SF.qmd\n#End FL Bay\n    - section: files_for_website/SFER_Main.qmd\n      contents:\n        - files_for_website/HOLD_PG_SFER.qmd\n#End SFER\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Does this ad a new page\n\nto the correct folder\nedit the quarto"
   }
 ]
