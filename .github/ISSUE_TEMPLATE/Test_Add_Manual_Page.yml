@@ -4,6 +4,19 @@ title: "New_Page: "
 labels: ["new_page"]
 assignees: []
 body:
+
+    - type: input
+      id: title
+      attributes:
+        label: Document Title
+        
+    - author: input
+      id: author
+      attribute:
+        label: Your Name
+        description: This will show the author of the document.
+      
+
     - type: dropdown
       id: project
       attributes:
