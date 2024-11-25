@@ -1,8 +1,0 @@
----
-title: "HOLD PG SF2"
-format: html
----
-
-## Hold page for sportfish
-
-Documentation page for sportfish.

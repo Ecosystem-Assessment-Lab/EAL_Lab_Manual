@@ -23,7 +23,6 @@ website:
         - section: files_for_website/Biscayne_Bay_Main.qmd
           contents:
             - files_for_website/HOLD_PG_BB.qmd
-            - files_for_website/clean-quarto-file.qmd
 #End Biscayne Bay 
 
         - section: files_for_website/FL_Bay_Main.qmd

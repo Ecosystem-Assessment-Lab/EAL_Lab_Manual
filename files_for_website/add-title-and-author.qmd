@@ -1,6 +1,0 @@
----
- "Add Title and Author to QMD File"
-author: "Brittany Troast"
-date: "2024-11-25"
----
-Maybe I did it!
