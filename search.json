@@ -65,11 +65,7 @@
     "href": "files_for_website/now-with-space.html",
     "title": "My QMD Title",
     "section": "",
-    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: “Home” href: index.qmd - text: “Lab Culture” href: files_for_website/Lab_Culture.qmd - text: “Projects” menu: - files_for_website/Biscayne_Bay_Main.qmd - files_for_website/FL_Bay_Main.qmd - files_for_website/SFER_Main.qmd\nsidebar: - title: “Projects” contents: - section: files_for_website/Biscayne_Bay_Main.qmd contents: - files_for_website/HOLD_PG_BB.qmd #End Biscayne Bay\n    - section: files_for_website/FL_Bay_Main.qmd\n      contents: \n        - files_for_website/HOLD_PG_SF.qmd\n#End FL Bay\n    - section: files_for_website/SFER_Main.qmd\n      contents:\n        - files_for_website/HOLD_PG_SFER.qmd\n        - files_for_website/now-with-space.qmd\n#End SFER\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Same thing as before\n\nmake file\nedit quarto",
-    "crumbs": [
-      "SFER Cruises",
-      "My QMD Title"
-    ]
+    "text": "project: type: website\nwebsite: title: “Ecosystem Assessment Lab Manual” navbar: left: - text: “Home” href: index.qmd - text: “Lab Culture” href: files_for_website/Lab_Culture.qmd - text: “Projects” menu: - files_for_website/Biscayne_Bay_Main.qmd - files_for_website/FL_Bay_Main.qmd - files_for_website/SFER_Main.qmd\nsidebar: - title: “Projects” contents: - section: files_for_website/Biscayne_Bay_Main.qmd contents: - files_for_website/HOLD_PG_BB.qmd #End Biscayne Bay\n    - section: files_for_website/FL_Bay_Main.qmd\n      contents: \n        - files_for_website/HOLD_PG_SF.qmd\n#End FL Bay\n    - section: files_for_website/SFER_Main.qmd\n      contents:\n        - files_for_website/HOLD_PG_SFER.qmd\n        - files_for_website/now-with-space.qmd\n#End SFER\nformat: html: theme: light: flatly dark: darkly toc: true toc-location: left Same thing as before\n\nmake file\nedit quarto"
   },
   {
     "objectID": "files_for_website/FL_Bay_Main.html",
