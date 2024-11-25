@@ -76,7 +76,7 @@ jobs:
       - name: Create QMD File
         run: |
           echo "---" > "${{ env.FILENAME }}"
-          echo " \"${{ env.TITLE }}\"" >> "${{ env.FILENAME }}"
+          echo "title: \"${{ env.TITLE }}\"" >> "${{ env.FILENAME }}"
           echo "author: \"${{ env.AUTHOR }}\"" >> "${{ env.FILENAME }}"
           echo "date: \"$(date '+%Y-%m-%d')\"" >> "${{ env.FILENAME }}"
           echo "---" >> "${{ env.FILENAME }}"
