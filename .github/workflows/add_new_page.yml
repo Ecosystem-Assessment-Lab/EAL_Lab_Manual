@@ -38,7 +38,7 @@ jobs:
         run: |
           if [ "${{ env.PROJECT }}" = "Florida Bay Juvenile Sportfish Sampling" ]; then
               awk -v filename="${{ env.FILENAME }}" 'index($0, "#End Biscayne Bay") {print "            - " filename}1' _quarto.yml > temp && mv temp _quarto.yml
-          elif [ "${{ env.PROJECT }}" = "South Florida Ecosystem Restoration Cruises"]; then
+          elif [ "${{ env.PROJECT }}" = "South Florida Ecosystem Restoration Cruises" ]; then
               awk -v filename="${{ env.FILENAME }}" 'index($0, "#End SFER") {print "            - " filename}1' _quarto.yml > temp && mv temp _quarto.yml
           elif [ "${{ env.PROJECT }}" = "Biscayne Bay Water Quality Sampling" ]; then
               awk -v filename="${{ env.FILENAME }}" 'index($0, "#End Biscayne Bay") {print "            - " filename}1' _quarto.yml > temp && mv temp _quarto.yml
