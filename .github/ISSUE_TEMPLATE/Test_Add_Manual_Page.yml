@@ -10,9 +10,9 @@ body:
       attributes:
         label: Document Title
         
-    - author: input
+    - type: input
       id: author
-      attribute:
+      attributes:
         label: Your Name
         description: This will show the author of the document.
       
