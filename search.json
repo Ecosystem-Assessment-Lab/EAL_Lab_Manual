@@ -71,14 +71,14 @@
     ]
   },
   {
-    "objectID": "files_for_website/after-clean.html",
-    "href": "files_for_website/after-clean.html",
-    "title": "This SHOULD Work",
+    "objectID": "files_for_website/new-test-page.html",
+    "href": "files_for_website/new-test-page.html",
+    "title": "Documentation I want to add",
     "section": "",
-    "text": "I need to clean out the old files because they ran no matter what.",
+    "text": "This is our new page\n\nProject A\nProject B\nProject C",
     "crumbs": [
       "Biscayne Bay Sampling",
-      "This SHOULD Work"
+      "Documentation I want to add"
     ]
   },
   {
@@ -99,6 +99,17 @@
     "text": "Here we put an overview of the project as the project intro page.",
     "crumbs": [
       "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/after-clean.html",
+    "href": "files_for_website/after-clean.html",
+    "title": "This SHOULD Work",
+    "section": "",
+    "text": "I need to clean out the old files because they ran no matter what.",
+    "crumbs": [
+      "Biscayne Bay Sampling",
+      "This SHOULD Work"
     ]
   },
   {
