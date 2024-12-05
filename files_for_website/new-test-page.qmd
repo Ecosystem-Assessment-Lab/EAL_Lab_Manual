@@ -1,0 +1,11 @@
+---
+title: "Documentation I want to add"
+author: "Brittany Troast"
+date: "2024-12-05"
+format: html
+---
+### This is our new page
+
+1. Project A
+2. Project B
+3. Project C
