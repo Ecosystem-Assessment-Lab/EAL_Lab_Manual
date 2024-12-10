@@ -37,6 +37,7 @@ website:
           contents:
             - files_for_website/HOLD_PG_SFER.qmd
             - files_for_website/testy-test-test-test.qmd
+            - files_for_website/test-for-iea-data.qmd
 #End SFER
 
 
