@@ -3,10 +3,10 @@ title: "SFER Data Changes"
 format:
   html: default
   pdf: default
-include-in-header:
-- text: \renewcommand{\thesection}{\Roman{section}}  
 ---
-
+```{=latex}
+\vspace{-2.5cm}
+```
 In 2024, the South Florida Ecosystem Restoration (SFER) cruise dataset underwent an overhaul to clean the data, make it machine-readable, allow for flexibility in extra sampling, and allow for easier hosting of the data. During this overhaul several changes withing the data were made. Here is a list of changes that occurred.
 
 ### Cruise ID
