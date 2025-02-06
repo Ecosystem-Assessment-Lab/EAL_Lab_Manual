@@ -1,0 +1,10 @@
+---
+title: "South Florida Ecosystem Restoration Research"
+format: html
+---
+
+The South Florida Ecosystem Restoration Research project (SFER) is part of a larger initiative to restore south Florida's ecosystems. The Comprehensive Everglades Restoration Plan (CERP) was authorized by Congress in 2000 to "restore, preserve, and protect the south Florida ecosystem while providing for other water-related needs of the region, including water supply and flood protection." It focuses on restoring the quality, quantity, timing, and distribution of freshwater to and from the Everglades. AOML supports this effort by researching how coastal ecosystems will likely be affected by Everglades restoration.
+
+[Cruising for Conservation](https://www.aoml.noaa.gov/cruising-for-conservation/)
+
+![R/V F.G. Walton Smith](https://www.earth.miami.edu/_assets/images/about-us/marine-operations/RVWaltonSmith1240x550.jpg){fig-align="center"}
