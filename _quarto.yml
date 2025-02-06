@@ -14,7 +14,7 @@ website:
         menu:
           - files_for_website/Biscayne_Bay_Main.qmd
           - files_for_website/FL_Bay_Main.qmd
-          - files_for_website/SFER_Main.qmd
+          - files_for_website/SFER_Intro.qmd
 
 
   sidebar: 
@@ -33,11 +33,9 @@ website:
             - files_for_website/HOLD_PG_SF.qmd
 #End FL Bay
 
-        - section: files_for_website/SFER_Main.qmd
+        - section: files_for_website/SFER_Intro.qmd
           contents:
-            - files_for_website/HOLD_PG_SFER.qmd
-            - files_for_website/testy-test-test-test.qmd
-            - files_for_website/test-for-iea-data.qmd
+            - files_for_website/SFER_Data Changes.qmd
 #End SFER
 
 
