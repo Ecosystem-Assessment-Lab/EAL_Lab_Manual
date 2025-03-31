@@ -23,9 +23,6 @@ website:
         - section: files_for_website/Biscayne_Bay_Main.qmd
           contents:
             - files_for_website/HOLD_PG_BB.qmd
-            - files_for_website/after-clean.qmd
-            - files_for_website/test-page.qmd
-            - files_for_website/new-test-page.qmd
 #End Biscayne Bay 
 
         - section: files_for_website/FL_Bay_Main.qmd
@@ -35,6 +32,7 @@ website:
 
         - section: files_for_website/SFER_Intro.qmd
           contents:
+            - files_for_website/Data_Ingestion_Steps.qmd
             - files_for_website/SFER_Data Changes.qmd
 #End SFER
 
