@@ -122,11 +122,7 @@
     "href": "files_for_website/new-test-page.html",
     "title": "Documentation I want to add",
     "section": "",
-    "text": "This is our new page\n\nProject A\nProject B\nProject C",
-    "crumbs": [
-      "Biscayne Bay Sampling",
-      "Documentation I want to add"
-    ]
+    "text": "This is our new page\n\nProject A\nProject B\nProject C"
   },
   {
     "objectID": "files_for_website/SFER_Data Changes.html",
@@ -176,35 +172,35 @@
     "href": "files_for_website/Data_Ingestion_Steps.html",
     "title": "Steps for Adding New Data",
     "section": "",
-    "text": "Below are the steps to adding new data post cruise."
+    "text": "Below are the steps to adding new data post cruise.",
+    "crumbs": [
+      "South Florida Ecosystem Restoration Research",
+      "Steps for Adding New Data"
+    ]
   },
   {
     "objectID": "files_for_website/Data_Ingestion_Steps.html#links",
     "href": "files_for_website/Data_Ingestion_Steps.html#links",
     "title": "Steps for Adding New Data",
     "section": "Links",
-    "text": "Links\nSFER Github\n\n1. Create New GitHub Branch\nClick the dropdown in the top left corner of the SFER repo to view the branches. To organize branches we will name the new branch “newdata_cruiseid” (ex. newdata_WS25024). Type the name in the bar and click “create ‘new branch’ from main”. This will create a clone of the current repository that you can work from.\n\n\n\n\n\n\n\n\n\nOpen branch menu to view current branches.\n\n\n\n\n\n\n\n\n\n\n\n\nType new branch name and click create.\n\n\n\n\n\n\n2. Fill Blank Templates\nSelect the new branch from the list in the upper left hand corner. Navigate to the Blank Templates folder SFER &gt; DATA &gt; Intermediate_Data &gt; Blank Templates.\n\n\n\n\n\n\n\nSelect the newly created branch which is a clone of the main repo when the branch was created.\n\n\nOur data is organized by creating multiple CSVs for the categories of Station Log (general sampling information), Nutrients, Chl a, Oxygen, and Incubations. Once these CSVs are filled out then a script is run to format the data all together into the final data format to be added to the long-term running dataset. The files with the suffix “_blank” are emtpy CSVs with the column names of variables that need to be filled out manually during data entry.\nFill out the “_blank” CSVs and save them in the “Intermediate_Data” folder with no suffix.\n\n\n\n\n\n\n\nFill out the blank templates of the intermediate products.\n\n\n\n\n3. Stitch Intermediate Data Sources into Final Format (Work in Progress)\nNext we will run the “Intermediate_to_Final.qmd” script to merge the intermediate datasets together and format in preparation for adding to the larger dataset, produce a QA/QC report to double check data, and add the data to the historical data (within this branch only).\n\n\n\n\n\n\nImportant\n\n\n\n“Intermediate_to_Final.qmd” still needs to be tweaked once we finalize data and flagging etc.\nAlso I intend to make this a GitHub action so that anyone can “press a button” and can run that script.\n\n\n\n\n4. Review QA/QC script and Merge Branches (Work in Progress)\nReview the report to make sure the data are correct before adding to historical dataset. Once it has been reviewed, merge the newdata branch into the main branch. The SFER_data.csv will now have the new data added.\nTO DO: - Intermedaite prodcuts should actually be the full historical dataset of that category. - Can still have them files added with cruise suffix"
+    "text": "Links\nSFER Github\n\n1. Create New GitHub Branch\nClick the dropdown in the top left corner of the SFER repo to view the branches. To organize branches we will name the new branch “newdata_cruiseid” (ex. newdata_WS25024). Type the name in the bar and click “create ‘new branch’ from main”. This will create a clone of the current repository that you can work from.\n\n\n\n\n\n\n\n\n\nOpen branch menu to view current branches.\n\n\n\n\n\n\n\n\n\n\n\n\nType new branch name and click create.\n\n\n\n\n\n\n2. Fill Blank Templates\nSelect the new branch from the list in the upper left hand corner. Navigate to the Blank Templates folder SFER &gt; DATA &gt; Intermediate_Data &gt; Blank Templates.\n\n\n\n\n\n\n\nSelect the newly created branch which is a clone of the main repo when the branch was created.\n\n\nOur data is organized by creating multiple CSVs for the categories of Station Log (general sampling information), Nutrients, Chl a, Oxygen, and Incubations. Once these CSVs are filled out then a script is run to format the data all together into the final data format to be added to the long-term running dataset. The files with the suffix “_blank” are emtpy CSVs with the column names of variables that need to be filled out manually during data entry.\nFill out the “_blank” CSVs and save them in the “Intermediate_Data” folder with no suffix.\n\n\n\n\n\n\n\nFill out the blank templates of the intermediate products.\n\n\n\n\n3. Stitch Intermediate Data Sources into Final Format (Work in Progress)\nNext we will run the “Intermediate_to_Final.qmd” script to merge the intermediate datasets together and format in preparation for adding to the larger dataset, produce a QA/QC report to double check data, and add the data to the historical data (within this branch only).\n\n\n\n\n\n\nImportant\n\n\n\n“Intermediate_to_Final.qmd” still needs to be tweaked once we finalize data and flagging etc.\nAlso I intend to make this a GitHub action so that anyone can “press a button” and can run that script.\n\n\n\n\n4. Review QA/QC script and Merge Branches (Work in Progress)\nReview the report to make sure the data are correct before adding to historical dataset. Once it has been reviewed, merge the newdata branch into the main branch. The SFER_data.csv will now have the new data added.\nTO DO: - Intermedaite prodcuts should actually be the full historical dataset of that category. - Can still have them files added with cruise suffix",
+    "crumbs": [
+      "South Florida Ecosystem Restoration Research",
+      "Steps for Adding New Data"
+    ]
   },
   {
     "objectID": "files_for_website/after-clean.html",
     "href": "files_for_website/after-clean.html",
     "title": "This SHOULD Work",
     "section": "",
-    "text": "I need to clean out the old files because they ran no matter what.",
-    "crumbs": [
-      "Biscayne Bay Sampling",
-      "This SHOULD Work"
-    ]
+    "text": "I need to clean out the old files because they ran no matter what."
   },
   {
     "objectID": "files_for_website/test-page.html",
     "href": "files_for_website/test-page.html",
     "title": "New Page to Website",
     "section": "",
-    "text": "Here is a new page for documentation\n\nThen it\nformats it\ncorrectly",
-    "crumbs": [
-      "Biscayne Bay Sampling",
-      "New Page to Website"
-    ]
+    "text": "Here is a new page for documentation\n\nThen it\nformats it\ncorrectly"
   }
 ]
