@@ -1,0 +1,56 @@
+---
+title: "Steps for Adding New Data"
+format: html
+lightbox: true
+---
+
+Below are the steps to adding new data post cruise.
+
+## Links
+
+[SFER Github](https://github.com/Ecosystem-Assessment-Lab/SFER)
+
+### 1. Create New GitHub Branch
+
+Click the dropdown in the top left corner of the SFER repo to view the branches. To organize branches we will name the new branch "newdata_cruiseid" (ex. newdata_WS25024). Type the name in the bar and click "create 'new branch' from main". This will create a clone of the current repository that you can work from.
+
+::: columns
+::: {.column width="44%"}
+![Open branch menu to view current branches.](images/New_Data_Add/New%20Branch_Crop.png){fig-align="center" width="400"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="44%"}
+![Type new branch name and click create.](images/New_Data_Add/New%20Branch%20Create_Crop.png){fig-align="center" width="400"}
+:::
+:::
+
+### 2. Fill Blank Templates
+
+Select the new branch from the list in the upper left hand corner. Navigate to the Blank Templates folder SFER \> DATA \> Intermediate_Data \> Blank Templates.
+
+![Select the newly created branch which is a clone of the main repo when the branch was created.](images/New_Data_Add/Select New Branch_Crop.png){fig-align="center" width="400"}
+
+Our data is organized by creating multiple CSVs for the categories of Station Log (general sampling information), Nutrients, Chl a, Oxygen, and Incubations. Once these CSVs are filled out then a script is run to format the data all together into the final data format to be added to the long-term running dataset. The files with the suffix "\_blank" are emtpy CSVs with the column names of variables that need to be filled out manually during data entry.
+
+Fill out the "\_blank" CSVs and save them in the "Intermediate_Data" folder with no suffix.
+
+![Fill out the blank templates of the intermediate products.](images/New_Data_Add/Blank Templates_Crop.png){fig-align="center" width="400"}
+
+### 3. Stitch Intermediate Data Sources into Final Format (Work in Progress)
+
+Next we will run the "Intermediate_to_Final.qmd" script to merge the intermediate datasets together and format in preparation for adding to the larger dataset, produce a QA/QC report to double check data, and add the data to the historical data (within this branch only).
+
+::: callout-important
+"Intermediate_to_Final.qmd" still needs to be tweaked once we finalize data and flagging etc.
+
+Also I intend to make this a GitHub action so that anyone can "press a button" and can run that script.
+:::
+
+### 4. Review QA/QC script and Merge Branches (Work in Progress)
+
+Review the report to make sure the data are correct before adding to historical dataset. Once it has been reviewed, merge the newdata branch into the main branch. The SFER_data.csv will now have the new data added.
+
+TO DO: - Intermedaite prodcuts should actually be the full historical dataset of that category. - Can still have them files added with cruise suffix
