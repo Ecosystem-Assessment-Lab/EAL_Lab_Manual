@@ -34,13 +34,109 @@
     ]
   },
   {
-    "objectID": "files_for_website/SFER_Intro.html",
-    "href": "files_for_website/SFER_Intro.html",
-    "title": "South Florida Ecosystem Restoration Research",
+    "objectID": "files_for_website/SFER_Main.html",
+    "href": "files_for_website/SFER_Main.html",
+    "title": "SFER Cruises",
     "section": "",
-    "text": "The South Florida Ecosystem Restoration Research project (SFER) is part of a larger initiative to restore south Florida’s ecosystems. The Comprehensive Everglades Restoration Plan (CERP) was authorized by Congress in 2000 to “restore, preserve, and protect the south Florida ecosystem while providing for other water-related needs of the region, including water supply and flood protection.” It focuses on restoring the quality, quantity, timing, and distribution of freshwater to and from the Everglades. AOML supports this effort by researching how coastal ecosystems will likely be affected by Everglades restoration.\nCruising for Conservation\n\n\n\nR/V F.G. Walton Smith",
+    "text": "Here we put an overview of the project as the project intro page."
+  },
+  {
+    "objectID": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
+    "href": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
+    "title": "SFER Cruises",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page."
+  },
+  {
+    "objectID": "files_for_website/Lab_Culture.html",
+    "href": "files_for_website/Lab_Culture.html",
+    "title": "Lab Culture",
+    "section": "",
+    "text": "Describe our lab culture here"
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF.html",
+    "href": "files_for_website/HOLD_PG_SF.html",
+    "title": "HOLD PG SF",
+    "section": "",
+    "text": "Documentation page for sportfish.",
     "crumbs": [
-      "South Florida Ecosystem Restoration Research"
+      "FL Bay Juvenile Sportfish Sampling",
+      "HOLD PG SF"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
+    "href": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
+    "title": "HOLD PG SF",
+    "section": "",
+    "text": "Documentation page for sportfish.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling",
+      "HOLD PG SF"
+    ]
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SFER.html",
+    "href": "files_for_website/HOLD_PG_SFER.html",
+    "title": "HOLD PG SFER",
+    "section": "",
+    "text": "Documentation page for SFER."
+  },
+  {
+    "objectID": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
+    "href": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
+    "title": "HOLD PG SFER",
+    "section": "",
+    "text": "Documentation page for SFER."
+  },
+  {
+    "objectID": "files_for_website/FL_Bay_Main.html",
+    "href": "files_for_website/FL_Bay_Main.html",
+    "title": "FL Bay Juvenile Sportfish Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
+    "href": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
+    "title": "FL Bay Juvenile Sportfish Sampling",
+    "section": "",
+    "text": "Here we put an overview of the project as the project intro page.",
+    "crumbs": [
+      "FL Bay Juvenile Sportfish Sampling"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Home Landing Page"
+  },
+  {
+    "objectID": "files_for_website/new-test-page.html",
+    "href": "files_for_website/new-test-page.html",
+    "title": "Documentation I want to add",
+    "section": "",
+    "text": "This is our new page\n\nProject A\nProject B\nProject C",
+    "crumbs": [
+      "Biscayne Bay Sampling",
+      "Documentation I want to add"
+    ]
+  },
+  {
+    "objectID": "files_for_website/SFER_Data Changes.html",
+    "href": "files_for_website/SFER_Data Changes.html",
+    "title": "SFER Data Changes",
+    "section": "",
+    "text": "In 2024, the South Florida Ecosystem Restoration (SFER) cruise dataset underwent an overhaul to clean the data, make it machine-readable, allow for flexibility in extra sampling, and allow for easier hosting of the data. During this overhaul several changes withing the data were made. Here is a list of changes that occurred.\n\nCruise ID\nThe cruise ID consists of the ship’s initials, the last two digits of the year, and the Julian day that sailing begins. For consistency and cleanliness, all ship initials were changed to two letters. Cruise IDs that did not contain the proper formatting were corrected for consistency.\n\nCruise ID Changes\n\n\n\n\n\n\n\nOld Cruise ID\nNew Cruise ID\nChanges made\n\n\n\n\nWS1418\nWS14335\nNumber ID changed to Julian day\n\n\nSAV1803\nSV18067\nShip initial changed to two letters; number changed to Julian day\n\n\nSAV18173\nSV18173\nShip initial changed to two letters\n\n\nWS20278\nWS20279\nJulian day corrected\n\n\nH23138\nHG23138\nShip initial changed to two letters\n\n\n\n\n\nShip IDs\nThe research vessel is represented in the cruise ID with the ship’s initials. Below are the abbreviations and the institution the ship is associated with.\n\nShip ID abbreviations\n\n\nShip Abbreviation\nResearch Vessel\nInstitution\n\n\n\n\nWS\nF. G. Walton Smith\nUniversity of Miami\n\n\nWB\nR/V Weatherbird II\nFIO\n\n\nHG\nR/V Hogarth\nFIO\n\n\nSV\nR/V Savannah\nSkidaway\n\n\n\n\n\nStation Names\nSome station names were changed to provide consistency within the entire data set (i.e. if a station name had changed over the years and had multiple identifiers), and/or to be machine readable. The notation of the letter \"B\" or \"b\" for stations reoccupied on a cruise were also removed; the stations are uniquely identified by the addition of cast number for or date (see cast number section for more details).\n\nStation name changes\n\n\n\n\n\n\n\nOld Station Name\nNew Station Name\nChanges Made\n\n\n21/LK\n21LK\nMachine readable; inconsistencies were also corrected (historically some stations labeled as 21 or LK)\n\n\n54B, 55B, 56B, 57B, 57.1B, 57.2B, 57.3B\n54, 55, 56, 57, 57.1, 57.2, 57.3\n\n\n\n8b, 9B\n8, 9\n\n\n\nBG7B, BG13B, BG15B, BG17B, BG20B\nBG7, BG13, BG15, BG17, BG20\nDifferentiated by cast number\n\n\nCAL-A\nCALA\nMachine readable\n\n\nEK IN, EK_IN\nEKIN\nMachine readable\n\n\nEK MID, EK_MID\nEKMID\nMachine readable\n\n\nEK OFF, EK_OFF\nEKOFF\nMachine readable\n\n\nNaples Blue hole\nNaplesBlueHole\nMachine readable\n\n\nRed Tide\nRedTide\nMachine readable\n\n\nTB-A, TB-B, TB-C\nTBA, TBB, TBC\nMachine readable\n\n\nUK IN, UK_IN\nUKIN\nMachine readable\n\n\nUK MID, UK_MID\nUKMID\nMachine readable\n\n\nUK OFF, UK_OFF\nUKOFF\nMachine readable\n\n\nZ03-xxx, Z04-xxx\nZ03xxx, Z04xxx\nMachine readable for full range of numbers\n\n\n\n\n\nStation Type\nStation type is differentiated as a CTD cast (C) or flowthrough sampling while underway (F). Changes were made to make these differentiations consistent within the dataset.\n\nStation type changes\n\n\n\n\n\n\n\nOld Station Type Name\nNew Station Type Name\nChanges Made\n\n\nCTD\nC\nSome station types were denoted as CTD for some cruises; changed to C to make entire dataset consistent\n\n\n\n\n\nSampling Time\nSampling time is recorded as GMT in a 24-hour format. Changes were made to time formatted in 12-hour format (all AM/PM removed). \n\n\nCast Number\nA column denoting cast number has been added to differentiate consecutive casts at the same station. If a station is occupied more than once during a cruise, the cast number will reset for each occupation. For example, if you stop at a station, cast the CTD, process samples, and cast another CTD, that cast numbers will be 1 and 2. However, if you stop at a station, cast the CTD, leave the station, come back to that station later that day, then both numbers will be 1. Flow through (F) stations will have a value of \"0\" in the cast number column. \nHistorically, stations along the Shark River line (54-57.3) were often occupied twice during a cruise, with the second occupation denoted with a \"B\" appended to the station name. The letter appendage has been removed (see Station Names section); the sampling events are differentiated by date-time. The cast number for stations like this is 1 for each cast.\n\n\nOld Column Names -&gt; New Column Names\nTo make the dataset machine_readable, column names were switched from the previous format. This is not the final list of columns in the dataset, and a final dataset metadata file is available here (TBD). However, this list will help you better understand some of the changes from the old data to the new.\n\nOld column names to new\n\n\n\n\n\n\nCurrent Column Name\nNew Column Name (machine readable)\n\n\n\n\nRank\nrank\n\n\nKeyfield\nkeyfield\n\n\nCruise\ncruise_id\n\n\nDate (GMT)\ndate\n\n\nTemperature\ntemp\n\n\nSalinity\nsal\n\n\nLatitude Deg\nlat_deg\n\n\nLatitude Min\nlat_min\n\n\nLatitude Decimal\nlat_dec\n\n\nLongitude Deg\nlon_deg\n\n\nLongitude Min\nlon_min\n\n\nLongitude Decimal\nlon_dec\n\n\nTime (GMT)\ntime\n\n\nStation\nstation\n\n\nF or CTD\nstation_type\n\n\nDepth\ndepth\n\n\nChlorophyll Tube #\nchl_tube\n\n\nAvg chl a (ug/L)\navg_chla\n\n\nAvg Phaeophytin (ug/L)\navg_phaeo\n\n\nNutrients Tube #\nnuts_tube\n\n\nNH4  (uM)\nnh4\n\n\nPO4  (uM)\npo4\n\n\nNO3+NO2 (uM)\nno3_no2\n\n\nNO3   (uM)\nno3 \n\n\nNO2  (uM)\nno2\n\n\nSi    (uM)\nsi\n\n\nDIC Bottle # Manzello/Enochs\ndic_bottle_enochs\n\n\nTA with CRM Correction (uequiv/kg)\nta_enochs\n\n\nCRM Corrected TCO2 (µmol/kg)\ntco2_enochs\n\n\nDIC Bottle # Wanninkhof\ndic_bottle_wanninkhof\n\n\nDIC (umol/kg)\ndic_wanninkhof\n\n\npH\nph_wanninkhof\n\n\nOxygen (umol/L)\no2 \n\n\nOxygen (mg/L) from CTD logs\no2_ctd\n\n\nNotes\nnotes",
+    "crumbs": [
+      "South Florida Ecosystem Restoration Research",
+      "SFER Data Changes"
     ]
   },
   {
@@ -66,110 +162,28 @@
     ]
   },
   {
-    "objectID": "files_for_website/SFER_Data Changes.html",
-    "href": "files_for_website/SFER_Data Changes.html",
-    "title": "SFER Data Changes",
+    "objectID": "files_for_website/SFER_Intro.html",
+    "href": "files_for_website/SFER_Intro.html",
+    "title": "South Florida Ecosystem Restoration Research",
     "section": "",
-    "text": "In 2024, the South Florida Ecosystem Restoration (SFER) cruise dataset underwent an overhaul to clean the data, make it machine-readable, allow for flexibility in extra sampling, and allow for easier hosting of the data. During this overhaul several changes withing the data were made. Here is a list of changes that occurred.\n\nCruise ID\nThe cruise ID consists of the ship’s initials, the last two digits of the year, and the Julian day that sailing begins. For consistency and cleanliness, all ship initials were changed to two letters. Cruise IDs that did not contain the proper formatting were corrected for consistency.\n\nCruise ID Changes\n\n\n\n\n\n\n\nOld Cruise ID\nNew Cruise ID\nChanges made\n\n\n\n\nWS1418\nWS14335\nNumber ID changed to Julian day\n\n\nSAV1803\nSV18067\nShip initial changed to two letters; number changed to Julian day\n\n\nSAV18173\nSV18173\nShip initial changed to two letters\n\n\nWS20278\nWS20279\nJulian day corrected\n\n\nH23138\nHG23138\nShip initial changed to two letters\n\n\n\n\n\nShip IDs\nThe research vessel is represented in the cruise ID with the ship’s initials. Below are the abbreviations and the institution the ship is associated with.\n\nShip ID abbreviations\n\n\nShip Abbreviation\nResearch Vessel\nInstitution\n\n\n\n\nWS\nF. G. Walton Smith\nUniversity of Miami\n\n\nWB\nR/V Weatherbird II\nFIO\n\n\nHG\nR/V Hogarth\nFIO\n\n\nSV\nR/V Savannah\nSkidaway\n\n\n\n\n\nStation Names\nSome station names were changed to provide consistency within the entire data set (i.e. if a station name had changed over the years and had multiple identifiers), and/or to be machine readable. The notation of the letter \"B\" or \"b\" for stations reoccupied on a cruise were also removed; the stations are uniquely identified by the addition of cast number for or date (see cast number section for more details).\n\nStation name changes\n\n\n\n\n\n\n\nOld Station Name\nNew Station Name\nChanges Made\n\n\n21/LK\n21LK\nMachine readable; inconsistencies were also corrected (historically some stations labeled as 21 or LK)\n\n\n54B, 55B, 56B, 57B, 57.1B, 57.2B, 57.3B\n54, 55, 56, 57, 57.1, 57.2, 57.3\n\n\n\n8b, 9B\n8, 9\n\n\n\nBG7B, BG13B, BG15B, BG17B, BG20B\nBG7, BG13, BG15, BG17, BG20\nDifferentiated by cast number\n\n\nCAL-A\nCALA\nMachine readable\n\n\nEK IN, EK_IN\nEKIN\nMachine readable\n\n\nEK MID, EK_MID\nEKMID\nMachine readable\n\n\nEK OFF, EK_OFF\nEKOFF\nMachine readable\n\n\nNaples Blue hole\nNaplesBlueHole\nMachine readable\n\n\nRed Tide\nRedTide\nMachine readable\n\n\nTB-A, TB-B, TB-C\nTBA, TBB, TBC\nMachine readable\n\n\nUK IN, UK_IN\nUKIN\nMachine readable\n\n\nUK MID, UK_MID\nUKMID\nMachine readable\n\n\nUK OFF, UK_OFF\nUKOFF\nMachine readable\n\n\nZ03-xxx, Z04-xxx\nZ03xxx, Z04xxx\nMachine readable for full range of numbers\n\n\n\n\n\nStation Type\nStation type is differentiated as a CTD cast (C) or flowthrough sampling while underway (F). Changes were made to make these differentiations consistent within the dataset.\n\nStation type changes\n\n\n\n\n\n\n\nOld Station Type Name\nNew Station Type Name\nChanges Made\n\n\nCTD\nC\nSome station types were denoted as CTD for some cruises; changed to C to make entire dataset consistent\n\n\n\n\n\nSampling Time\nSampling time is recorded as GMT in a 24-hour format. Changes were made to time formatted in 12-hour format (all AM/PM removed). \n\n\nCast Number\nA column denoting cast number has been added to differentiate consecutive casts at the same station. If a station is occupied more than once during a cruise, the cast number will reset for each occupation. For example, if you stop at a station, cast the CTD, process samples, and cast another CTD, that cast numbers will be 1 and 2. However, if you stop at a station, cast the CTD, leave the station, come back to that station later that day, then both numbers will be 1. Flow through (F) stations will have a value of \"0\" in the cast number column. \nHistorically, stations along the Shark River line (54-57.3) were often occupied twice during a cruise, with the second occupation denoted with a \"B\" appended to the station name. The letter appendage has been removed (see Station Names section); the sampling events are differentiated by date-time. The cast number for stations like this is 1 for each cast.\n\n\nOld Column Names -&gt; New Column Names\nTo make the dataset machine_readable, column names were switched from the previous format. This is not the final list of columns in the dataset, and a final dataset metadata file is available here (TBD). However, this list will help you better understand some of the changes from the old data to the new.\n\nOld column names to new\n\n\n\n\n\n\nCurrent Column Name\nNew Column Name (machine readable)\n\n\n\n\nRank\nrank\n\n\nKeyfield\nkeyfield\n\n\nCruise\ncruise_id\n\n\nDate (GMT)\ndate\n\n\nTemperature\ntemp\n\n\nSalinity\nsal\n\n\nLatitude Deg\nlat_deg\n\n\nLatitude Min\nlat_min\n\n\nLatitude Decimal\nlat_dec\n\n\nLongitude Deg\nlon_deg\n\n\nLongitude Min\nlon_min\n\n\nLongitude Decimal\nlon_dec\n\n\nTime (GMT)\ntime\n\n\nStation\nstation\n\n\nF or CTD\nstation_type\n\n\nDepth\ndepth\n\n\nChlorophyll Tube #\nchl_tube\n\n\nAvg chl a (ug/L)\navg_chla\n\n\nAvg Phaeophytin (ug/L)\navg_phaeo\n\n\nNutrients Tube #\nnuts_tube\n\n\nNH4  (uM)\nnh4\n\n\nPO4  (uM)\npo4\n\n\nNO3+NO2 (uM)\nno3_no2\n\n\nNO3   (uM)\nno3 \n\n\nNO2  (uM)\nno2\n\n\nSi    (uM)\nsi\n\n\nDIC Bottle # Manzello/Enochs\ndic_bottle_enochs\n\n\nTA with CRM Correction (uequiv/kg)\nta_enochs\n\n\nCRM Corrected TCO2 (µmol/kg)\ntco2_enochs\n\n\nDIC Bottle # Wanninkhof\ndic_bottle_wanninkhof\n\n\nDIC (umol/kg)\ndic_wanninkhof\n\n\npH\nph_wanninkhof\n\n\nOxygen (umol/L)\no2 \n\n\nOxygen (mg/L) from CTD logs\no2_ctd\n\n\nNotes\nnotes",
+    "text": "The South Florida Ecosystem Restoration Research project (SFER) is part of a larger initiative to restore south Florida’s ecosystems. The Comprehensive Everglades Restoration Plan (CERP) was authorized by Congress in 2000 to “restore, preserve, and protect the south Florida ecosystem while providing for other water-related needs of the region, including water supply and flood protection.” It focuses on restoring the quality, quantity, timing, and distribution of freshwater to and from the Everglades. AOML supports this effort by researching how coastal ecosystems will likely be affected by Everglades restoration.\nCruising for Conservation\n\n\n\nR/V F.G. Walton Smith",
     "crumbs": [
-      "South Florida Ecosystem Restoration Research",
-      "SFER Data Changes"
+      "South Florida Ecosystem Restoration Research"
     ]
   },
   {
-    "objectID": "files_for_website/new-test-page.html",
-    "href": "files_for_website/new-test-page.html",
-    "title": "Documentation I want to add",
+    "objectID": "files_for_website/Data_Ingestion_Steps.html",
+    "href": "files_for_website/Data_Ingestion_Steps.html",
+    "title": "Steps for Adding New Data",
     "section": "",
-    "text": "This is our new page\n\nProject A\nProject B\nProject C",
-    "crumbs": [
-      "Biscayne Bay Sampling",
-      "Documentation I want to add"
-    ]
+    "text": "Below are the steps to adding new data post cruise."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Home Landing Page"
-  },
-  {
-    "objectID": "files_for_website/FL_Bay_Main.html",
-    "href": "files_for_website/FL_Bay_Main.html",
-    "title": "FL Bay Juvenile Sportfish Sampling",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
-    "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling"
-    ]
-  },
-  {
-    "objectID": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
-    "href": "files_for_website/FL_Bay_Main.html#florida-bay-juvenile-sportfish-sampling",
-    "title": "FL Bay Juvenile Sportfish Sampling",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page.",
-    "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling"
-    ]
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SFER.html",
-    "href": "files_for_website/HOLD_PG_SFER.html",
-    "title": "HOLD PG SFER",
-    "section": "",
-    "text": "Documentation page for SFER."
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
-    "href": "files_for_website/HOLD_PG_SFER.html#hold-page-for-sfer",
-    "title": "HOLD PG SFER",
-    "section": "",
-    "text": "Documentation page for SFER."
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SF.html",
-    "href": "files_for_website/HOLD_PG_SF.html",
-    "title": "HOLD PG SF",
-    "section": "",
-    "text": "Documentation page for sportfish.",
-    "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling",
-      "HOLD PG SF"
-    ]
-  },
-  {
-    "objectID": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
-    "href": "files_for_website/HOLD_PG_SF.html#hold-page-for-sportfish",
-    "title": "HOLD PG SF",
-    "section": "",
-    "text": "Documentation page for sportfish.",
-    "crumbs": [
-      "FL Bay Juvenile Sportfish Sampling",
-      "HOLD PG SF"
-    ]
-  },
-  {
-    "objectID": "files_for_website/Lab_Culture.html",
-    "href": "files_for_website/Lab_Culture.html",
-    "title": "Lab Culture",
-    "section": "",
-    "text": "Describe our lab culture here"
-  },
-  {
-    "objectID": "files_for_website/SFER_Main.html",
-    "href": "files_for_website/SFER_Main.html",
-    "title": "SFER Cruises",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page."
-  },
-  {
-    "objectID": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
-    "href": "files_for_website/SFER_Main.html#south-florida-ecosystem-restoration-cruises",
-    "title": "SFER Cruises",
-    "section": "",
-    "text": "Here we put an overview of the project as the project intro page."
+    "objectID": "files_for_website/Data_Ingestion_Steps.html#links",
+    "href": "files_for_website/Data_Ingestion_Steps.html#links",
+    "title": "Steps for Adding New Data",
+    "section": "Links",
+    "text": "Links\nSFER Github\n\n1. Create New GitHub Branch\nClick the dropdown in the top left corner of the SFER repo to view the branches. To organize branches we will name the new branch “newdata_cruiseid” (ex. newdata_WS25024). Type the name in the bar and click “create ‘new branch’ from main”. This will create a clone of the current repository that you can work from.\n\n\n\n\n\n\n\n\n\nOpen branch menu to view current branches.\n\n\n\n\n\n\n\n\n\n\n\n\nType new branch name and click create.\n\n\n\n\n\n\n2. Fill Blank Templates\nSelect the new branch from the list in the upper left hand corner. Navigate to the Blank Templates folder SFER &gt; DATA &gt; Intermediate_Data &gt; Blank Templates.\n\n\n\n\n\n\n\nSelect the newly created branch which is a clone of the main repo when the branch was created.\n\n\nOur data is organized by creating multiple CSVs for the categories of Station Log (general sampling information), Nutrients, Chl a, Oxygen, and Incubations. Once these CSVs are filled out then a script is run to format the data all together into the final data format to be added to the long-term running dataset. The files with the suffix “_blank” are emtpy CSVs with the column names of variables that need to be filled out manually during data entry.\nFill out the “_blank” CSVs and save them in the “Intermediate_Data” folder with no suffix.\n\n\n\n\n\n\n\nFill out the blank templates of the intermediate products.\n\n\n\n\n3. Stitch Intermediate Data Sources into Final Format (Work in Progress)\nNext we will run the “Intermediate_to_Final.qmd” script to merge the intermediate datasets together and format in preparation for adding to the larger dataset, produce a QA/QC report to double check data, and add the data to the historical data (within this branch only).\n\n\n\n\n\n\nImportant\n\n\n\n“Intermediate_to_Final.qmd” still needs to be tweaked once we finalize data and flagging etc.\nAlso I intend to make this a GitHub action so that anyone can “press a button” and can run that script.\n\n\n\n\n4. Review QA/QC script and Merge Branches (Work in Progress)\nReview the report to make sure the data are correct before adding to historical dataset. Once it has been reviewed, merge the newdata branch into the main branch. The SFER_data.csv will now have the new data added.\nTO DO: - Intermedaite prodcuts should actually be the full historical dataset of that category. - Can still have them files added with cruise suffix"
   },
   {
     "objectID": "files_for_website/after-clean.html",
